@@ -10,7 +10,7 @@ import {AudioSelector} from './AudioSelector';
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot: React.FC = () => {
-	const [selectedAudio, setSelectedAudio] = useState(staticFile('thesis_audio.wav'));
+	const [selectedAudio, setSelectedAudio] = useState(staticFile('thesis_audio.mp3'));
 
 	const handleAudioSelect = useCallback((src: string) => {
 		setSelectedAudio(src);

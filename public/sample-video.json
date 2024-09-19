@@ -1,0 +1,124 @@
+{
+  "systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+  "model": {
+    "type": "medium",
+    "multilingual": false,
+    "vocab": 51864,
+    "audio": {
+      "ctx": 1500,
+      "state": 1024,
+      "head": 16,
+      "layer": 24
+    },
+    "text": {
+      "ctx": 448,
+      "state": 1024,
+      "head": 16,
+      "layer": 24
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "C:\\Users\\jfiad\\OneDrive\\Documents\\GitHub\\tiktok-test\\whisper.cpp\\ggml-medium.en.bin",
+    "language": "en",
+    "translate": false
+  },
+  "result": {
+    "language": "en"
+  },
+  "transcription": [
+    {
+      "text": "Using",
+      "startInSeconds": 0.32
+    },
+    {
+      "text": "Remotion's",
+      "startInSeconds": 0.58
+    },
+    {
+      "text": "TikTok",
+      "startInSeconds": 1.2
+    },
+    {
+      "text": "template,",
+      "startInSeconds": 1.8
+    },
+    {
+      "text": "you",
+      "startInSeconds": 2.04
+    },
+    {
+      "text": "can",
+      "startInSeconds": 2.28
+    },
+    {
+      "text": "create",
+      "startInSeconds": 2.6
+    },
+    {
+      "text": "engaging",
+      "startInSeconds": 3.52
+    },
+    {
+      "text": "reels",
+      "startInSeconds": 4.14
+    },
+    {
+      "text": "and",
+      "startInSeconds": 4.68
+    },
+    {
+      "text": "TikToks",
+      "startInSeconds": 5
+    },
+    {
+      "text": "by transcribing",
+      "startInSeconds": 5.92
+    },
+    {
+      "text": "your",
+      "startInSeconds": 6.96
+    },
+    {
+      "text": "audio",
+      "startInSeconds": 7.4
+    },
+    {
+      "text": "using",
+      "startInSeconds": 7.9
+    },
+    {
+      "text": "whisper",
+      "startInSeconds": 8.4
+    },
+    {
+      "text": "CPP",
+      "startInSeconds": 8.7
+    },
+    {
+      "text": "and",
+      "startInSeconds": 9.78
+    },
+    {
+      "text": "animating",
+      "startInSeconds": 10.2
+    },
+    {
+      "text": "your",
+      "startInSeconds": 10.64
+    },
+    {
+      "text": "captions",
+      "startInSeconds": 11
+    },
+    {
+      "text": "with",
+      "startInSeconds": 11.56
+    },
+    {
+      "text": "React.",
+      "startInSeconds": 11.82
+    }
+  ]
+}

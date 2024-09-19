@@ -1,6 +1,7 @@
 import {useCallback, useEffect, useState} from 'react';
 import {
 	AbsoluteFill,
+	Audio,
 	CalculateMetadataFunction,
 	cancelRender,
 	continueRender,
@@ -13,7 +14,7 @@ import {
 } from 'remotion';
 import {z} from 'zod';
 import Subtitle from './Subtitle';
-import {getVideoMetadata} from '@remotion/media-utils';
+import {getAudioDurationInSeconds} from '@remotion/media-utils';
 import {loadFont} from '../load-font';
 import {NoCaptionFile} from './NoCaptionFile';
 
@@ -24,17 +25,17 @@ export type SubtitleProp = {
 
 export const captionedVideoSchema = z.object({
 	src: z.string(),
+	audioSrc: z.string(),
 });
 
 export const calculateCaptionedVideoMetadata: CalculateMetadataFunction<
 	z.infer<typeof captionedVideoSchema>
 > = async ({props}) => {
 	const fps = 30;
-	const metadata = await getVideoMetadata(props.src);
-
+	const audioMetadata = await getAudioDurationInSeconds(props.audioSrc);
 	return {
 		fps,
-		durationInFrames: Math.floor(metadata.durationInSeconds * fps),
+		durationInFrames: Math.ceil(audioMetadata * fps),
 	};
 };
 
@@ -48,16 +49,16 @@ const getFileExists = (file: string) => {
 
 export const CaptionedVideo: React.FC<{
 	src: string;
-}> = ({src}) => {
+	audioSrc: string;
+}> = ({src, audioSrc}) => {
 	const [subtitles, setSubtitles] = useState<SubtitleProp[]>([]);
 	const [handle] = useState(() => delayRender());
+	const [audioDuration, setAudioDuration] = useState(0);
 	const {fps} = useVideoConfig();
 
-	const subtitlesFile = src
-		.replace(/.mp4$/, '.json')
-		.replace(/.mkv$/, '.json')
-		.replace(/.mov$/, '.json')
-		.replace(/.webm$/, '.json');
+	const subtitlesFile = audioSrc
+		.replace(/.wav$/, '.json')
+		.replace(/.mp3$/, '.json');
 
 	const fetchSubtitles = useCallback(async () => {
 		try {
@@ -65,11 +66,13 @@ export const CaptionedVideo: React.FC<{
 			const res = await fetch(subtitlesFile);
 			const data = await res.json();
 			setSubtitles(data.transcription);
+			const duration = await getAudioDurationInSeconds(audioSrc);
+			setAudioDuration(duration);
 			continueRender(handle);
 		} catch (e) {
 			cancelRender(e);
 		}
-	}, [handle, subtitlesFile]);
+	}, [handle, subtitlesFile, audioSrc]);
 
 	useEffect(() => {
 		fetchSubtitles();
@@ -81,7 +84,9 @@ export const CaptionedVideo: React.FC<{
 		return () => {
 			c.cancel();
 		};
-	}, [fetchSubtitles, src, subtitlesFile]);
+	}, [fetchSubtitles, audioSrc, subtitlesFile]);
+
+	const durationInFrames = Math.ceil(audioDuration * fps);
 
 	return (
 		<AbsoluteFill style={{backgroundColor: 'white'}}>
@@ -91,7 +96,10 @@ export const CaptionedVideo: React.FC<{
 						objectFit: 'cover',
 					}}
 					src={src}
+					muted
+					loop
 				/>
+				<Audio src={audioSrc} />
 			</AbsoluteFill>
 			{subtitles.map((subtitle, index) => {
 				const nextSubtitle = subtitles[index + 1] ?? null;
@@ -99,18 +107,20 @@ export const CaptionedVideo: React.FC<{
 				const subtitleEndFrame = Math.min(
 					nextSubtitle ? nextSubtitle.startInSeconds * fps : Infinity,
 					subtitleStartFrame + fps,
+					durationInFrames
 				);
-				const durationInFrames = subtitleEndFrame - subtitleStartFrame;
-				if (durationInFrames <= 0) {
+				const subtitleDurationInFrames = subtitleEndFrame - subtitleStartFrame;
+				if (subtitleDurationInFrames <= 0) {
 					return null;
 				}
 
 				return (
 					<Sequence
 						from={subtitleStartFrame}
-						durationInFrames={durationInFrames}
+						durationInFrames={subtitleDurationInFrames}
+						key={index}
 					>
-						<Subtitle key={index} text={subtitle.text} />;
+						<Subtitle text={subtitle.text} />
 					</Sequence>
 				);
 			})}

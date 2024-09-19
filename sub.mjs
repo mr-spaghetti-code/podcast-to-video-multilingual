@@ -9,7 +9,6 @@ import {
 } from 'node:fs';
 import path from 'path';
 import {
-	WHISPER_LANG,
 	WHISPER_MODEL,
 	WHISPER_PATH,
 	WHISPER_VERSION,
@@ -21,8 +20,22 @@ import {
 	transcribe,
 } from '@remotion/install-whisper-cpp';
 
+// Parse command line arguments
+const args = process.argv.slice(2);
+const langIndex = args.indexOf('--lang');
+const WHISPER_LANG = langIndex !== -1 && args[langIndex + 1] ? args[langIndex + 1] : 'en';
+
+// Remove --lang and its value from args if present
+if (langIndex !== -1) {
+  args.splice(langIndex, 2);
+}
+
+const convertCaptionsToParagraphs = (transcription) => {
+  return transcription.map(item => item.text).join(' ');
+};
+
 const extractToTempAudioFile = (fileToTranscribe, tempOutFile) => {
-	// Extracting audio from mp4 and save it as 16khz wav file
+	// Extracting audio from video or copying audio file and save it as 16khz wav file
 	execSync(
 		`npx remotion ffmpeg -i ${fileToTranscribe} -ar 16000 ${tempOutFile} -y`,
 		{stdio: ['ignore', 'inherit']},
@@ -34,7 +47,7 @@ const subFile = async (filePath, fileName, folder) => {
 		process.cwd(),
 		'public',
 		folder,
-		fileName.replace('.wav', '.json'),
+		path.basename(fileName, path.extname(fileName)) + '.json'
 	);
 
 	const result = await transcribe({
@@ -51,12 +64,16 @@ const subFile = async (filePath, fileName, folder) => {
 		transcription: result.transcription,
 		combineTokensWithinMilliseconds: 200,
 	});
+
+  const fullTranscript = convertCaptionsToParagraphs(result.transcription);
+
 	writeFileSync(
-		outPath.replace('webcam', 'subs'),
+		outPath,
 		JSON.stringify(
 			{
 				...result,
 				transcription: captions,
+				fullTranscription: fullTranscript,
 			},
 			null,
 			2,
@@ -64,23 +81,16 @@ const subFile = async (filePath, fileName, folder) => {
 	);
 };
 
-const processVideo = async (fullPath, entry, directory) => {
-	if (
-		!fullPath.endsWith('.mp4') &&
-		!fullPath.endsWith('.webm') &&
-		!fullPath.endsWith('.mkv') &&
-		!fullPath.endsWith('.mov')
-	) {
+const processFile = async (fullPath, entry, directory) => {
+	const supportedExtensions = ['.mp4', '.webm', '.mkv', '.mov', '.mp3', '.wav'];
+	const fileExtension = path.extname(fullPath).toLowerCase();
+
+	if (!supportedExtensions.includes(fileExtension)) {
 		return;
 	}
 
 	const isTranscribed = existsSync(
-		fullPath
-			.replace(/.mp4$/, '.json')
-			.replace(/.mkv$/, '.json')
-			.replace(/.mov$/, '.json')
-			.replace(/.webm$/, '.json')
-			.replace('webcam', 'subs'),
+		fullPath.replace(new RegExp(`${fileExtension}$`), '.json')
 	);
 	if (isTranscribed) {
 		return;
@@ -90,9 +100,9 @@ const processVideo = async (fullPath, entry, directory) => {
 		mkdirSync(`temp`);
 		shouldRemoveTempDirectory = true;
 	}
-	console.log('Extracting audio from file', entry);
+	console.log('Processing file', entry);
 
-	const tempWavFileName = entry.split('.')[0] + '.wav';
+	const tempWavFileName = path.basename(entry, path.extname(entry)) + '.wav';
 	const tempOutFilePath = path.join(process.cwd(), `temp/${tempWavFileName}`);
 
 	extractToTempAudioFile(fullPath, tempOutFilePath);
@@ -116,23 +126,23 @@ const processDirectory = async (directory) => {
 		if (stat.isDirectory()) {
 			await processDirectory(fullPath); // Recurse into subdirectories
 		} else {
-			await processVideo(fullPath, entry, directory);
+			await processFile(fullPath, entry, directory);
 		}
 	}
 };
 
-await installWhisperCpp({to: WHISPER_PATH, version: WHISPER_VERSION});
-await downloadWhisperModel({folder: WHISPER_PATH, model: WHISPER_MODEL});
+// await installWhisperCpp({to: WHISPER_PATH, version: WHISPER_VERSION});
+// await downloadWhisperModel({folder: WHISPER_PATH, model: WHISPER_MODEL});
 
 // Read arguments for filename if given else process all files in the directory
-const hasArgs = process.argv.length > 2;
+const hasArgs = args.length > 0;
 
 if (!hasArgs) {
 	await processDirectory(path.join(process.cwd(), 'public'));
 	process.exit(0);
 }
 
-for (const arg of process.argv.slice(2)) {
+for (const arg of args) {
 	const fullPath = path.join(process.cwd(), arg);
 	const stat = lstatSync(fullPath);
 
@@ -144,5 +154,5 @@ for (const arg of process.argv.slice(2)) {
 	console.log(`Processing file ${fullPath}`);
 	const directory = path.dirname(fullPath);
 	const fileName = path.basename(fullPath);
-	await processVideo(fullPath, fileName, directory);
+	await processFile(fullPath, fileName, directory);
 }

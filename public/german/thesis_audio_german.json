@@ -1,0 +1,4985 @@
+{
+  "systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | METAL = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 0 | VSX = 0 | CUDA = 0 | COREML = 0 | OPENVINO = 0",
+  "model": {
+    "type": "medium",
+    "multilingual": true,
+    "vocab": 51865,
+    "audio": {
+      "ctx": 1500,
+      "state": 1024,
+      "head": 16,
+      "layer": 24
+    },
+    "text": {
+      "ctx": 448,
+      "state": 1024,
+      "head": 16,
+      "layer": 24
+    },
+    "mels": 80,
+    "ftype": 1
+  },
+  "params": {
+    "model": "C:\\Users\\jfiad\\OneDrive\\Documents\\GitHub\\tiktok-test\\whisper.cpp\\ggml-medium.bin",
+    "language": "de",
+    "translate": false
+  },
+  "result": {
+    "language": "de"
+  },
+  "transcription": [
+    {
+      "text": "Schon",
+      "startInSeconds": 0.28
+    },
+    {
+      "text": "mal in",
+      "startInSeconds": 0.54
+    },
+    {
+      "text": "einen",
+      "startInSeconds": 0.94
+    },
+    {
+      "text": "dieser",
+      "startInSeconds": 1.24
+    },
+    {
+      "text": "Wikipedia-Kaninchenlöcher",
+      "startInSeconds": 1.94
+    },
+    {
+      "text": "hineingezogen",
+      "startInSeconds": 3.24
+    },
+    {
+      "text": "worden?",
+      "startInSeconds": 4.06
+    },
+    {
+      "text": "Weißt",
+      "startInSeconds": 4.98
+    },
+    {
+      "text": "du, du",
+      "startInSeconds": 5.16
+    },
+    {
+      "text": "fängst",
+      "startInSeconds": 5.5
+    },
+    {
+      "text": "mit einem",
+      "startInSeconds": 5.8
+    },
+    {
+      "text": "zufälligen",
+      "startInSeconds": 6.3
+    },
+    {
+      "text": "Fakt",
+      "startInSeconds": 6.88
+    },
+    {
+      "text": "auf",
+      "startInSeconds": 7.16
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 7.82
+    },
+    {
+      "text": "an und Stunden",
+      "startInSeconds": 8.22
+    },
+    {
+      "text": "später",
+      "startInSeconds": 9.44
+    },
+    {
+      "text": "liest",
+      "startInSeconds": 9.66
+    },
+    {
+      "text": "du über",
+      "startInSeconds": 9.88
+    },
+    {
+      "text": "mittelalterliches",
+      "startInSeconds": 10.36
+    },
+    {
+      "text": "Korb",
+      "startInSeconds": 11.16
+    },
+    {
+      "text": "flechten",
+      "startInSeconds": 11.46
+    },
+    {
+      "text": "oder",
+      "startInSeconds": 11.94
+    },
+    {
+      "text": "so was?",
+      "startInSeconds": 12.14
+    },
+    {
+      "text": "Oh ja,",
+      "startInSeconds": 13.38
+    },
+    {
+      "text": "passiert",
+      "startInSeconds": 14.08
+    },
+    {
+      "text": "den",
+      "startInSeconds": 14.3
+    },
+    {
+      "text": "Besten",
+      "startInSeconds": 14.56
+    },
+    {
+      "text": "von",
+      "startInSeconds": 14.86
+    },
+    {
+      "text": "uns.",
+      "startInSeconds": 15.18
+    },
+    {
+      "text": "Aber",
+      "startInSeconds": 16.06
+    },
+    {
+      "text": "hast",
+      "startInSeconds": 16.32
+    },
+    {
+      "text": "du schon",
+      "startInSeconds": 16.4
+    },
+    {
+      "text": "mal darüber",
+      "startInSeconds": 16.8
+    },
+    {
+      "text": "nachgedacht,",
+      "startInSeconds": 17.52
+    },
+    {
+      "text": "was",
+      "startInSeconds": 18.22
+    },
+    {
+      "text": "eigentlich",
+      "startInSeconds": 18.72
+    },
+    {
+      "text": "einen",
+      "startInSeconds": 18.98
+    },
+    {
+      "text": "guten",
+      "startInSeconds": 19.32
+    },
+    {
+      "text": "Wikipedia-Artikel",
+      "startInSeconds": 20.04
+    },
+    {
+      "text": "ausmacht?",
+      "startInSeconds": 20.86
+    },
+    {
+      "text": "Das",
+      "startInSeconds": 22.02
+    },
+    {
+      "text": "ist",
+      "startInSeconds": 22.24
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 22.42
+    },
+    {
+      "text": "gute",
+      "startInSeconds": 22.68
+    },
+    {
+      "text": "Frage.",
+      "startInSeconds": 23.16
+    },
+    {
+      "text": "Was unterscheidet",
+      "startInSeconds": 24.24
+    },
+    {
+      "text": "einen",
+      "startInSeconds": 25.16
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 25.66
+    },
+    {
+      "text": "großartigen",
+      "startInSeconds": 25.94
+    },
+    {
+      "text": "Eintrag",
+      "startInSeconds": 26.64
+    },
+    {
+      "text": "von einem,",
+      "startInSeconds": 27.08
+    },
+    {
+      "text": "der nur",
+      "startInSeconds": 27.74
+    },
+    {
+      "text": "so mittelmäßig",
+      "startInSeconds": 28.16
+    },
+    {
+      "text": "ist?",
+      "startInSeconds": 29.08
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 29.94
+    },
+    {
+      "text": "interessant.",
+      "startInSeconds": 30.52
+    },
+    {
+      "text": "Wir nehmen",
+      "startInSeconds": 31.14
+    },
+    {
+      "text": "es irgendwie",
+      "startInSeconds": 31.64
+    },
+    {
+      "text": "als selbstverständlich,",
+      "startInSeconds": 32.34
+    },
+    {
+      "text": "aber",
+      "startInSeconds": 33.84
+    },
+    {
+      "text": "der Prozess,",
+      "startInSeconds": 34.04
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 34.7
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 35.02
+    },
+    {
+      "text": "zu erstellen,",
+      "startInSeconds": 35.36
+    },
+    {
+      "text": "ist wirklich",
+      "startInSeconds": 36.06
+    },
+    {
+      "text": "kompliziert.",
+      "startInSeconds": 36.86
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 38
+    },
+    {
+      "text": "und",
+      "startInSeconds": 38.3
+    },
+    {
+      "text": "genau",
+      "startInSeconds": 38.48
+    },
+    {
+      "text": "darum",
+      "startInSeconds": 38.78
+    },
+    {
+      "text": "geht",
+      "startInSeconds": 39
+    },
+    {
+      "text": "es heute.",
+      "startInSeconds": 39.2
+    },
+    {
+      "text": "Und",
+      "startInSeconds": 40.46
+    },
+    {
+      "text": "hör",
+      "startInSeconds": 40.58
+    },
+    {
+      "text": "dir",
+      "startInSeconds": 40.7
+    },
+    {
+      "text": "das an,",
+      "startInSeconds": 40.98
+    },
+    {
+      "text": "wir sprechen",
+      "startInSeconds": 41.6
+    },
+    {
+      "text": "über",
+      "startInSeconds": 42.18
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 42.4
+    },
+    {
+      "text": "Forschung,",
+      "startInSeconds": 42.72
+    },
+    {
+      "text": "die darauf",
+      "startInSeconds": 43.04
+    },
+    {
+      "text": "hindeutet,",
+      "startInSeconds": 43.48
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 44.32
+    },
+    {
+      "text": "ein bisschen",
+      "startInSeconds": 44.5
+    },
+    {
+      "text": "Konflikt",
+      "startInSeconds": 45.12
+    },
+    {
+      "text": "auf",
+      "startInSeconds": 45.48
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 46.16
+    },
+    {
+      "text": "tatsächlich",
+      "startInSeconds": 46.82
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 47.1
+    },
+    {
+      "text": "gute",
+      "startInSeconds": 47.38
+    },
+    {
+      "text": "Sache",
+      "startInSeconds": 47.6
+    },
+    {
+      "text": "sein",
+      "startInSeconds": 47.88
+    },
+    {
+      "text": "könnte.",
+      "startInSeconds": 48.22
+    },
+    {
+      "text": "Richtig,",
+      "startInSeconds": 49.2
+    },
+    {
+      "text": "wir betrachten",
+      "startInSeconds": 49.92
+    },
+    {
+      "text": "Auszüge",
+      "startInSeconds": 50.88
+    },
+    {
+      "text": "aus dieser",
+      "startInSeconds": 51.36
+    },
+    {
+      "text": "Dissertation",
+      "startInSeconds": 51.56
+    },
+    {
+      "text": "der",
+      "startInSeconds": 52.52
+    },
+    {
+      "text": "Oxford",
+      "startInSeconds": 52.94
+    },
+    {
+      "text": "University",
+      "startInSeconds": 53.7
+    },
+    {
+      "text": "mit",
+      "startInSeconds": 54.16
+    },
+    {
+      "text": "dem",
+      "startInSeconds": 54.4
+    },
+    {
+      "text": "Titel",
+      "startInSeconds": 54.62
+    },
+    {
+      "text": "\"Wikipedia",
+      "startInSeconds": 54.8
+    },
+    {
+      "text": "als eine",
+      "startInSeconds": 55.66
+    },
+    {
+      "text": "Co-Autoren",
+      "startInSeconds": 56.2
+    },
+    {
+      "text": "schafft\".",
+      "startInSeconds": 56.86
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 57.76
+    },
+    {
+      "text": "so eine",
+      "startInSeconds": 58.26
+    },
+    {
+      "text": "Art",
+      "startInSeconds": 58.76
+    },
+    {
+      "text": "Datenanalyse,",
+      "startInSeconds": 59.16
+    },
+    {
+      "text": "trifft",
+      "startInSeconds": 60.2
+    },
+    {
+      "text": "das",
+      "startInSeconds": 60.56
+    },
+    {
+      "text": "Drama",
+      "startInSeconds": 60.86
+    },
+    {
+      "text": "der",
+      "startInSeconds": 61.04
+    },
+    {
+      "text": "Onlinezusammenarbeit.",
+      "startInSeconds": 61.52
+    },
+    {
+      "text": "Oh,",
+      "startInSeconds": 63.36
+    },
+    {
+      "text": "schnall",
+      "startInSeconds": 63.56
+    },
+    {
+      "text": "dich",
+      "startInSeconds": 63.82
+    },
+    {
+      "text": "an,",
+      "startInSeconds": 64.14
+    },
+    {
+      "text": "das",
+      "startInSeconds": 64.38
+    },
+    {
+      "text": "wird",
+      "startInSeconds": 64.52
+    },
+    {
+      "text": "gut.",
+      "startInSeconds": 64.88
+    },
+    {
+      "text": "Wir",
+      "startInSeconds": 65.42
+    },
+    {
+      "text": "alle wissen,",
+      "startInSeconds": 65.68
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 66.26
+    },
+    {
+      "text": "jeder",
+      "startInSeconds": 66.52
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 67.14
+    },
+    {
+      "text": "bearbeiten",
+      "startInSeconds": 67.56
+    },
+    {
+      "text": "kann,",
+      "startInSeconds": 68.06
+    },
+    {
+      "text": "richtig?",
+      "startInSeconds": 68.62
+    },
+    {
+      "text": "Dieser",
+      "startInSeconds": 69.52
+    },
+    {
+      "text": "Forscher",
+      "startInSeconds": 69.86
+    },
+    {
+      "text": "wollte",
+      "startInSeconds": 70.22
+    },
+    {
+      "text": "herausfinden,",
+      "startInSeconds": 70.7
+    },
+    {
+      "text": "ob all",
+      "startInSeconds": 71.14
+    },
+    {
+      "text": "das",
+      "startInSeconds": 71.68
+    },
+    {
+      "text": "hin",
+      "startInSeconds": 71.9
+    },
+    {
+      "text": "und her,",
+      "startInSeconds": 72.14
+    },
+    {
+      "text": "all die",
+      "startInSeconds": 72.86
+    },
+    {
+      "text": "Debatten",
+      "startInSeconds": 73.36
+    },
+    {
+      "text": "und",
+      "startInSeconds": 73.72
+    },
+    {
+      "text": "Bearbeitungen",
+      "startInSeconds": 74.08
+    },
+    {
+      "text": "letztendlich",
+      "startInSeconds": 74.88
+    },
+    {
+      "text": "zu besseren",
+      "startInSeconds": 75.44
+    },
+    {
+      "text": "Artikeln",
+      "startInSeconds": 76.16
+    },
+    {
+      "text": "führen.",
+      "startInSeconds": 76.68
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 77.64
+    },
+    {
+      "text": "und sie",
+      "startInSeconds": 77.82
+    },
+    {
+      "text": "betrachteten",
+      "startInSeconds": 78.24
+    },
+    {
+      "text": "nicht",
+      "startInSeconds": 78.74
+    },
+    {
+      "text": "nur gut",
+      "startInSeconds": 78.98
+    },
+    {
+      "text": "oder",
+      "startInSeconds": 79.52
+    },
+    {
+      "text": "schlecht.",
+      "startInSeconds": 79.88
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 81.08
+    },
+    {
+      "text": "hat",
+      "startInSeconds": 81.3
+    },
+    {
+      "text": "dieses",
+      "startInSeconds": 81.72
+    },
+    {
+      "text": "interne",
+      "startInSeconds": 82.1
+    },
+    {
+      "text": "Bewertungssystem.",
+      "startInSeconds": 82.36
+    },
+    {
+      "text": "Es gibt",
+      "startInSeconds": 83.84
+    },
+    {
+      "text": "sieben",
+      "startInSeconds": 84.28
+    },
+    {
+      "text": "Stufen.",
+      "startInSeconds": 84.66
+    },
+    {
+      "text": "Wow,",
+      "startInSeconds": 85.68
+    },
+    {
+      "text": "sieben.",
+      "startInSeconds": 86.06
+    },
+    {
+      "text": "Sieben",
+      "startInSeconds": 86.64
+    },
+    {
+      "text": "Qualitätsstufen.",
+      "startInSeconds": 87.4
+    },
+    {
+      "text": "Aber",
+      "startInSeconds": 88.98
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 89.28
+    },
+    {
+      "text": "Forschung",
+      "startInSeconds": 89.62
+    },
+    {
+      "text": "konzentrierte",
+      "startInSeconds": 90.04
+    },
+    {
+      "text": "sich",
+      "startInSeconds": 90.62
+    },
+    {
+      "text": "auf vier",
+      "startInSeconds": 90.78
+    },
+    {
+      "text": "Hauptaspekte.",
+      "startInSeconds": 91.36
+    },
+    {
+      "text": "Konnte",
+      "startInSeconds": 92.84
+    },
+    {
+      "text": "man",
+      "startInSeconds": 93.2
+    },
+    {
+      "text": "den",
+      "startInSeconds": 93.48
+    },
+    {
+      "text": "Informationen",
+      "startInSeconds": 94.14
+    },
+    {
+      "text": "vertrauen?",
+      "startInSeconds": 94.5
+    },
+    {
+      "text": "Waren",
+      "startInSeconds": 95.78
+    },
+    {
+      "text": "sie",
+      "startInSeconds": 96
+    },
+    {
+      "text": "objektiv?",
+      "startInSeconds": 96.2
+    },
+    {
+      "text": "Fehlte",
+      "startInSeconds": 97.24
+    },
+    {
+      "text": "etwas",
+      "startInSeconds": 97.68
+    },
+    {
+      "text": "Wichtiges?",
+      "startInSeconds": 97.96
+    },
+    {
+      "text": "Und",
+      "startInSeconds": 98.76
+    },
+    {
+      "text": "war",
+      "startInSeconds": 98.94
+    },
+    {
+      "text": "es gut",
+      "startInSeconds": 99.14
+    },
+    {
+      "text": "geschrieben?",
+      "startInSeconds": 99.9
+    },
+    {
+      "text": "Okay,",
+      "startInSeconds": 101.12
+    },
+    {
+      "text": "im Grunde",
+      "startInSeconds": 101.4
+    },
+    {
+      "text": "also",
+      "startInSeconds": 102
+    },
+    {
+      "text": "all die",
+      "startInSeconds": 102.22
+    },
+    {
+      "text": "Sachen,",
+      "startInSeconds": 102.68
+    },
+    {
+      "text": "auf die",
+      "startInSeconds": 102.88
+    },
+    {
+      "text": "man bei",
+      "startInSeconds": 103.2
+    },
+    {
+      "text": "jeder",
+      "startInSeconds": 103.72
+    },
+    {
+      "text": "Quelle",
+      "startInSeconds": 103.9
+    },
+    {
+      "text": "achten",
+      "startInSeconds": 104.28
+    },
+    {
+      "text": "würde,",
+      "startInSeconds": 104.64
+    },
+    {
+      "text": "richtig?",
+      "startInSeconds": 105.24
+    },
+    {
+      "text": "Aber",
+      "startInSeconds": 106.04
+    },
+    {
+      "text": "hier",
+      "startInSeconds": 106.32
+    },
+    {
+      "text": "wird",
+      "startInSeconds": 106.52
+    },
+    {
+      "text": "es richtig",
+      "startInSeconds": 106.74
+    },
+    {
+      "text": "interessant.",
+      "startInSeconds": 107.7
+    },
+    {
+      "text": "Sie",
+      "startInSeconds": 108.4
+    },
+    {
+      "text": "mussten",
+      "startInSeconds": 108.68
+    },
+    {
+      "text": "einen",
+      "startInSeconds": 109.04
+    },
+    {
+      "text": "Weg finden,",
+      "startInSeconds": 109.32
+    },
+    {
+      "text": "Konflikte",
+      "startInSeconds": 110.08
+    },
+    {
+      "text": "auf",
+      "startInSeconds": 110.6
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 111.22
+    },
+    {
+      "text": "zu messen.",
+      "startInSeconds": 111.52
+    },
+    {
+      "text": "Denn",
+      "startInSeconds": 112.52
+    },
+    {
+      "text": "seien",
+      "startInSeconds": 112.52
+    },
+    {
+      "text": "wir",
+      "startInSeconds": 113.36
+    },
+    {
+      "text": "ehrlich,",
+      "startInSeconds": 113.74
+    },
+    {
+      "text": "einige",
+      "startInSeconds": 114.46
+    },
+    {
+      "text": "Themen",
+      "startInSeconds": 114.78
+    },
+    {
+      "text": "werden",
+      "startInSeconds": 115.06
+    },
+    {
+      "text": "von",
+      "startInSeconds": 115.26
+    },
+    {
+      "text": "Natur",
+      "startInSeconds": 115.64
+    },
+    {
+      "text": "aus",
+      "startInSeconds": 115.94
+    },
+    {
+      "text": "kontroverser",
+      "startInSeconds": 116.16
+    },
+    {
+      "text": "sein.",
+      "startInSeconds": 117
+    },
+    {
+      "text": "Auf",
+      "startInSeconds": 117.9
+    },
+    {
+      "text": "jeden",
+      "startInSeconds": 118.34
+    },
+    {
+      "text": "Fall.",
+      "startInSeconds": 118.66
+    },
+    {
+      "text": "Als",
+      "startInSeconds": 119.42
+    },
+    {
+      "text": "andere,",
+      "startInSeconds": 119.82
+    },
+    {
+      "text": "also",
+      "startInSeconds": 120.56
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 121.02
+    },
+    {
+      "text": "misst",
+      "startInSeconds": 121.2
+    },
+    {
+      "text": "man",
+      "startInSeconds": 121.4
+    },
+    {
+      "text": "das",
+      "startInSeconds": 121.62
+    },
+    {
+      "text": "überhaupt?",
+      "startInSeconds": 122.08
+    },
+    {
+      "text": "Richtig,",
+      "startInSeconds": 122.96
+    },
+    {
+      "text": "sie kamen",
+      "startInSeconds": 123.54
+    },
+    {
+      "text": "auf eine",
+      "startInSeconds": 123.96
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 124.64
+    },
+    {
+      "text": "clevere",
+      "startInSeconds": 124.84
+    },
+    {
+      "text": "Methode,",
+      "startInSeconds": 125.38
+    },
+    {
+      "text": "die",
+      "startInSeconds": 125.72
+    },
+    {
+      "text": "etwas",
+      "startInSeconds": 126.06
+    },
+    {
+      "text": "namens",
+      "startInSeconds": 126.32
+    },
+    {
+      "text": "gegenseitige",
+      "startInSeconds": 126.74
+    },
+    {
+      "text": "Revertschutz",
+      "startInSeconds": 127.66
+    },
+    {
+      "text": "verwendet.",
+      "startInSeconds": 128.36
+    },
+    {
+      "text": "Gegenseitige",
+      "startInSeconds": 129.78
+    },
+    {
+      "text": "Reverts.",
+      "startInSeconds": 130.74
+    },
+    {
+      "text": "Okay,",
+      "startInSeconds": 131.48
+    },
+    {
+      "text": "erkläre",
+      "startInSeconds": 131.84
+    },
+    {
+      "text": "das",
+      "startInSeconds": 132.14
+    },
+    {
+      "text": "für uns,",
+      "startInSeconds": 132.38
+    },
+    {
+      "text": "es klingt",
+      "startInSeconds": 132.9
+    },
+    {
+      "text": "ein bisschen",
+      "startInSeconds": 133.3
+    },
+    {
+      "text": "technisch.",
+      "startInSeconds": 134.02
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 134.78
+    },
+    {
+      "text": "es klingt",
+      "startInSeconds": 134.98
+    },
+    {
+      "text": "sehr",
+      "startInSeconds": 135.54
+    },
+    {
+      "text": "technisch,",
+      "startInSeconds": 135.84
+    },
+    {
+      "text": "ist",
+      "startInSeconds": 136.5
+    },
+    {
+      "text": "aber",
+      "startInSeconds": 136.72
+    },
+    {
+      "text": "tatsächlich",
+      "startInSeconds": 137.26
+    },
+    {
+      "text": "ziemlich",
+      "startInSeconds": 137.7
+    },
+    {
+      "text": "intuitiv.",
+      "startInSeconds": 138.14
+    },
+    {
+      "text": "Im Grunde",
+      "startInSeconds": 139.16
+    },
+    {
+      "text": "verfolgen",
+      "startInSeconds": 139.88
+    },
+    {
+      "text": "sie,",
+      "startInSeconds": 140.36
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 140.58
+    },
+    {
+      "text": "oft Editoren",
+      "startInSeconds": 140.82
+    },
+    {
+      "text": "die Änderungen",
+      "startInSeconds": 141.58
+    },
+    {
+      "text": "anderer",
+      "startInSeconds": 142.6
+    },
+    {
+      "text": "rückgängig",
+      "startInSeconds": 142.82
+    },
+    {
+      "text": "machen.",
+      "startInSeconds": 143.5
+    },
+    {
+      "text": "Je mehr",
+      "startInSeconds": 144.42
+    },
+    {
+      "text": "hin und",
+      "startInSeconds": 144.84
+    },
+    {
+      "text": "her es",
+      "startInSeconds": 145.18
+    },
+    {
+      "text": "gibt,",
+      "startInSeconds": 145.68
+    },
+    {
+      "text": "desto",
+      "startInSeconds": 145.98
+    },
+    {
+      "text": "höher",
+      "startInSeconds": 146.36
+    },
+    {
+      "text": "ist der",
+      "startInSeconds": 146.58
+    },
+    {
+      "text": "Kontrovers-Score",
+      "startInSeconds": 147.04
+    },
+    {
+      "text": "eines",
+      "startInSeconds": 147.88
+    },
+    {
+      "text": "Artikels.",
+      "startInSeconds": 148.24
+    },
+    {
+      "text": "Okay,",
+      "startInSeconds": 149.62
+    },
+    {
+      "text": "es ist",
+      "startInSeconds": 149.86
+    },
+    {
+      "text": "also",
+      "startInSeconds": 150.32
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 150.5
+    },
+    {
+      "text": "ein",
+      "startInSeconds": 150.74
+    },
+    {
+      "text": "Tauziehen",
+      "startInSeconds": 150.82
+    },
+    {
+      "text": "um den",
+      "startInSeconds": 151.36
+    },
+    {
+      "text": "Inhalt.",
+      "startInSeconds": 151.76
+    },
+    {
+      "text": "Genau,",
+      "startInSeconds": 153
+    },
+    {
+      "text": "okay,",
+      "startInSeconds": 153.56
+    },
+    {
+      "text": "ein hoher",
+      "startInSeconds": 153.84
+    },
+    {
+      "text": "Kontrovers-Score",
+      "startInSeconds": 154.44
+    },
+    {
+      "text": "bedeutet",
+      "startInSeconds": 155.54
+    },
+    {
+      "text": "also",
+      "startInSeconds": 155.92
+    },
+    {
+      "text": "viel mehr",
+      "startInSeconds": 156.14
+    },
+    {
+      "text": "Meinungsverschiedenheiten.",
+      "startInSeconds": 156.64
+    },
+    {
+      "text": "Die",
+      "startInSeconds": 158.38
+    },
+    {
+      "text": "Editoren",
+      "startInSeconds": 158.64
+    },
+    {
+      "text": "sind",
+      "startInSeconds": 159.08
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 159.56
+    },
+    {
+      "text": "oft hin",
+      "startInSeconds": 159.82
+    },
+    {
+      "text": "und",
+      "startInSeconds": 160.28
+    },
+    {
+      "text": "her",
+      "startInSeconds": 160.46
+    },
+    {
+      "text": "gegangen",
+      "startInSeconds": 160.74
+    },
+    {
+      "text": "bei dem",
+      "startInSeconds": 161.02
+    },
+    {
+      "text": "Artikel.",
+      "startInSeconds": 161.52
+    },
+    {
+      "text": "Genau,",
+      "startInSeconds": 162.96
+    },
+    {
+      "text": "Jim",
+      "startInSeconds": 163.6
+    },
+    {
+      "text": "Sin...",
+      "startInSeconds": 163.9
+    },
+    {
+      "text": "Er krass",
+      "startInSeconds": 165.28
+    },
+    {
+      "text": "es? Ja,",
+      "startInSeconds": 165.6
+    },
+    {
+      "text": "viel",
+      "startInSeconds": 166.34
+    },
+    {
+      "text": "Streit",
+      "startInSeconds": 166.6
+    },
+    {
+      "text": "sozusagen.",
+      "startInSeconds": 167.26
+    },
+    {
+      "text": "Und man",
+      "startInSeconds": 168.08
+    },
+    {
+      "text": "würde",
+      "startInSeconds": 168.62
+    },
+    {
+      "text": "denken,",
+      "startInSeconds": 168.98
+    },
+    {
+      "text": "all das",
+      "startInSeconds": 169.36
+    },
+    {
+      "text": "Streiten",
+      "startInSeconds": 169.86
+    },
+    {
+      "text": "würde",
+      "startInSeconds": 170.22
+    },
+    {
+      "text": "zu einem",
+      "startInSeconds": 170.4
+    },
+    {
+      "text": "schlechteren",
+      "startInSeconds": 170.88
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 171.36
+    },
+    {
+      "text": "führen.",
+      "startInSeconds": 171.82
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 173.02
+    },
+    {
+      "text": "man würde",
+      "startInSeconds": 173.18
+    },
+    {
+      "text": "es denken,",
+      "startInSeconds": 173.68
+    },
+    {
+      "text": "richtig,",
+      "startInSeconds": 174.46
+    },
+    {
+      "text": "aber",
+      "startInSeconds": 175.08
+    },
+    {
+      "text": "hier",
+      "startInSeconds": 175.36
+    },
+    {
+      "text": "ist",
+      "startInSeconds": 175.58
+    },
+    {
+      "text": "der",
+      "startInSeconds": 175.72
+    },
+    {
+      "text": "Twist.",
+      "startInSeconds": 176.08
+    },
+    {
+      "text": "Häng",
+      "startInSeconds": 176.86
+    },
+    {
+      "text": "uns nicht",
+      "startInSeconds": 177.2
+    },
+    {
+      "text": "in der",
+      "startInSeconds": 177.6
+    },
+    {
+      "text": "Luft.",
+      "startInSeconds": 178.02
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 178.64
+    },
+    {
+      "text": "mit einem",
+      "startInSeconds": 178.96
+    },
+    {
+      "text": "moderaten",
+      "startInSeconds": 179.58
+    },
+    {
+      "text": "Maß",
+      "startInSeconds": 180.02
+    },
+    {
+      "text": "an Konflikt,",
+      "startInSeconds": 180.3
+    },
+    {
+      "text": "das heißt,",
+      "startInSeconds": 181.04
+    },
+    {
+      "text": "sie",
+      "startInSeconds": 181.5
+    },
+    {
+      "text": "hatten",
+      "startInSeconds": 181.74
+    },
+    {
+      "text": "etwas",
+      "startInSeconds": 182.12
+    },
+    {
+      "text": "hin und",
+      "startInSeconds": 182.36
+    },
+    {
+      "text": "her, aber",
+      "startInSeconds": 182.92
+    },
+    {
+      "text": "es war",
+      "startInSeconds": 183.46
+    },
+    {
+      "text": "nicht",
+      "startInSeconds": 183.82
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 184
+    },
+    {
+      "text": "ein totaler",
+      "startInSeconds": 184.12
+    },
+    {
+      "text": "Kriegszustand,",
+      "startInSeconds": 184.84
+    },
+    {
+      "text": "erzielten",
+      "startInSeconds": 186.28
+    },
+    {
+      "text": "tatsächlich",
+      "startInSeconds": 187.2
+    },
+    {
+      "text": "höhere",
+      "startInSeconds": 187.4
+    },
+    {
+      "text": "Bewertungen",
+      "startInSeconds": 187.82
+    },
+    {
+      "text": "bei diesen",
+      "startInSeconds": 188.48
+    },
+    {
+      "text": "vier",
+      "startInSeconds": 189.02
+    },
+    {
+      "text": "Qualitätsmerkmalen.",
+      "startInSeconds": 189.38
+    },
+    {
+      "text": "Also",
+      "startInSeconds": 191.48
+    },
+    {
+      "text": "sagst",
+      "startInSeconds": 191.74
+    },
+    {
+      "text": "du,",
+      "startInSeconds": 191.98
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 192.24
+    },
+    {
+      "text": "ein bisschen",
+      "startInSeconds": 192.36
+    },
+    {
+      "text": "gesunde",
+      "startInSeconds": 193.08
+    },
+    {
+      "text": "Debatte",
+      "startInSeconds": 193.68
+    },
+    {
+      "text": "einen",
+      "startInSeconds": 194.22
+    },
+    {
+      "text": "besseren",
+      "startInSeconds": 194.54
+    },
+    {
+      "text": "Wikipedia-Artikel",
+      "startInSeconds": 195.3
+    },
+    {
+      "text": "ausmacht?",
+      "startInSeconds": 196.14
+    },
+    {
+      "text": "Das",
+      "startInSeconds": 197.36
+    },
+    {
+      "text": "legt",
+      "startInSeconds": 197.66
+    },
+    {
+      "text": "die",
+      "startInSeconds": 197.94
+    },
+    {
+      "text": "Forschung",
+      "startInSeconds": 198.14
+    },
+    {
+      "text": "nahe,",
+      "startInSeconds": 198.5
+    },
+    {
+      "text": "ja.",
+      "startInSeconds": 198.98
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 199.82
+    },
+    {
+      "text": "es scheint",
+      "startInSeconds": 199.96
+    },
+    {
+      "text": "kontraintuitiv,",
+      "startInSeconds": 200.64
+    },
+    {
+      "text": "aber",
+      "startInSeconds": 201.84
+    },
+    {
+      "text": "wenn",
+      "startInSeconds": 202.06
+    },
+    {
+      "text": "du darüber",
+      "startInSeconds": 202.2
+    },
+    {
+      "text": "nachdenkst,",
+      "startInSeconds": 202.88
+    },
+    {
+      "text": "wenn",
+      "startInSeconds": 203.66
+    },
+    {
+      "text": "du Leute",
+      "startInSeconds": 203.76
+    },
+    {
+      "text": "mit unterschiedlichen",
+      "startInSeconds": 204.36
+    },
+    {
+      "text": "Perspektiven",
+      "startInSeconds": 205.3
+    },
+    {
+      "text": "hast,",
+      "startInSeconds": 206.14
+    },
+    {
+      "text": "die sich",
+      "startInSeconds": 206.62
+    },
+    {
+      "text": "gegenseitig",
+      "startInSeconds": 207.04
+    },
+    {
+      "text": "herausfordern",
+      "startInSeconds": 207.96
+    },
+    {
+      "text": "und",
+      "startInSeconds": 208.82
+    },
+    {
+      "text": "bearbeitete",
+      "startInSeconds": 209.2
+    },
+    {
+      "text": "Änderungen",
+      "startInSeconds": 209.68
+    },
+    {
+      "text": "zurücksetzen,",
+      "startInSeconds": 210.32
+    },
+    {
+      "text": "kann",
+      "startInSeconds": 211.18
+    },
+    {
+      "text": "das am",
+      "startInSeconds": 211.34
+    },
+    {
+      "text": "Ende",
+      "startInSeconds": 211.8
+    },
+    {
+      "text": "zu einem",
+      "startInSeconds": 212.02
+    },
+    {
+      "text": "ausgewogeneren",
+      "startInSeconds": 212.64
+    },
+    {
+      "text": "und",
+      "startInSeconds": 213.54
+    },
+    {
+      "text": "umfassenderen",
+      "startInSeconds": 213.82
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 214.58
+    },
+    {
+      "text": "führen.",
+      "startInSeconds": 215.04
+    },
+    {
+      "text": "Richtig,",
+      "startInSeconds": 216.3
+    },
+    {
+      "text": "ich meine,",
+      "startInSeconds": 216.78
+    },
+    {
+      "text": "wenn",
+      "startInSeconds": 217.36
+    },
+    {
+      "text": "ein",
+      "startInSeconds": 217.6
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 217.86
+    },
+    {
+      "text": "super",
+      "startInSeconds": 218.42
+    },
+    {
+      "text": "einseitig",
+      "startInSeconds": 218.7
+    },
+    {
+      "text": "ist,",
+      "startInSeconds": 219.36
+    },
+    {
+      "text": "könnte",
+      "startInSeconds": 219.72
+    },
+    {
+      "text": "es daran",
+      "startInSeconds": 220.04
+    },
+    {
+      "text": "liegen,",
+      "startInSeconds": 220.62
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 220.98
+    },
+    {
+      "text": "niemand",
+      "startInSeconds": 221.32
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 221.64
+    },
+    {
+      "text": "Perspektive",
+      "startInSeconds": 221.88
+    },
+    {
+      "text": "je herausgefordert",
+      "startInSeconds": 222.66
+    },
+    {
+      "text": "hat,",
+      "startInSeconds": 223.78
+    },
+    {
+      "text": "richtig?",
+      "startInSeconds": 224.44
+    },
+    {
+      "text": "Aber",
+      "startInSeconds": 225.04
+    },
+    {
+      "text": "wenn",
+      "startInSeconds": 225.4
+    },
+    {
+      "text": "er durch",
+      "startInSeconds": 225.56
+    },
+    {
+      "text": "die Mangel",
+      "startInSeconds": 226.02
+    },
+    {
+      "text": "gedreht",
+      "startInSeconds": 226.54
+    },
+    {
+      "text": "wurde,",
+      "startInSeconds": 227.04
+    },
+    {
+      "text": "ist es",
+      "startInSeconds": 227.46
+    },
+    {
+      "text": "wahrscheinlich,",
+      "startInSeconds": 228.08
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 228.3
+    },
+    {
+      "text": "er gerechter",
+      "startInSeconds": 228.48
+    },
+    {
+      "text": "und",
+      "startInSeconds": 229.2
+    },
+    {
+      "text": "genauer",
+      "startInSeconds": 229.46
+    },
+    {
+      "text": "ist.",
+      "startInSeconds": 229.88
+    },
+    {
+      "text": "Genau,",
+      "startInSeconds": 231.12
+    },
+    {
+      "text": "okay,",
+      "startInSeconds": 231.68
+    },
+    {
+      "text": "das macht",
+      "startInSeconds": 232
+    },
+    {
+      "text": "Sinn.",
+      "startInSeconds": 232.54
+    },
+    {
+      "text": "Aber",
+      "startInSeconds": 233.3
+    },
+    {
+      "text": "es gibt",
+      "startInSeconds": 233.5
+    },
+    {
+      "text": "auch",
+      "startInSeconds": 233.94
+    },
+    {
+      "text": "ein",
+      "startInSeconds": 234.12
+    },
+    {
+      "text": "Limit",
+      "startInSeconds": 234.34
+    },
+    {
+      "text": "zu viel",
+      "startInSeconds": 234.72
+    },
+    {
+      "text": "Konflikt,",
+      "startInSeconds": 235.18
+    },
+    {
+      "text": "wenn es",
+      "startInSeconds": 235.94
+    },
+    {
+      "text": "sich in",
+      "startInSeconds": 236.3
+    },
+    {
+      "text": "reine",
+      "startInSeconds": 236.64
+    },
+    {
+      "text": "Bearbeitungskriege",
+      "startInSeconds": 237.1
+    },
+    {
+      "text": "auflöst,",
+      "startInSeconds": 238.3
+    },
+    {
+      "text": "dann",
+      "startInSeconds": 239.04
+    },
+    {
+      "text": "wird",
+      "startInSeconds": 239.24
+    },
+    {
+      "text": "das",
+      "startInSeconds": 239.48
+    },
+    {
+      "text": "die Qualität",
+      "startInSeconds": 239.68
+    },
+    {
+      "text": "wieder",
+      "startInSeconds": 240.42
+    },
+    {
+      "text": "nach",
+      "startInSeconds": 240.68
+    },
+    {
+      "text": "unten",
+      "startInSeconds": 240.92
+    },
+    {
+      "text": "ziehen.",
+      "startInSeconds": 241.28
+    },
+    {
+      "text": "Ah,",
+      "startInSeconds": 242.26
+    },
+    {
+      "text": "also",
+      "startInSeconds": 242.98
+    },
+    {
+      "text": "muss",
+      "startInSeconds": 243.16
+    },
+    {
+      "text": "man",
+      "startInSeconds": 243.34
+    },
+    {
+      "text": "den",
+      "startInSeconds": 243.5
+    },
+    {
+      "text": "richtigen",
+      "startInSeconds": 243.86
+    },
+    {
+      "text": "Punkt",
+      "startInSeconds": 244.26
+    },
+    {
+      "text": "finden,",
+      "startInSeconds": 244.66
+    },
+    {
+      "text": "richtig?",
+      "startInSeconds": 245.14
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 246.46
+    },
+    {
+      "text": "ein",
+      "startInSeconds": 247.24
+    },
+    {
+      "text": "bisschen",
+      "startInSeconds": 247.5
+    },
+    {
+      "text": "Reibung",
+      "startInSeconds": 247.8
+    },
+    {
+      "text": "erzeugt",
+      "startInSeconds": 248.28
+    },
+    {
+      "text": "Hitze,",
+      "startInSeconds": 248.8
+    },
+    {
+      "text": "aber",
+      "startInSeconds": 249.42
+    },
+    {
+      "text": "zu",
+      "startInSeconds": 249.72
+    },
+    {
+      "text": "viel",
+      "startInSeconds": 249.92
+    },
+    {
+      "text": "und",
+      "startInSeconds": 250.08
+    },
+    {
+      "text": "man",
+      "startInSeconds": 250.38
+    },
+    {
+      "text": "verbrennt",
+      "startInSeconds": 250.54
+    },
+    {
+      "text": "sich.",
+      "startInSeconds": 251.04
+    },
+    {
+      "text": "Perfekte",
+      "startInSeconds": 251.86
+    },
+    {
+      "text": "Analogie,",
+      "startInSeconds": 252.56
+    },
+    {
+      "text": "ja,",
+      "startInSeconds": 253.34
+    },
+    {
+      "text": "und",
+      "startInSeconds": 253.86
+    },
+    {
+      "text": "um zu",
+      "startInSeconds": 254.1
+    },
+    {
+      "text": "den Kontrovers-Scores",
+      "startInSeconds": 254.5
+    },
+    {
+      "text": "zurückzukehren,",
+      "startInSeconds": 255.98
+    },
+    {
+      "text": "der",
+      "startInSeconds": 256.96
+    },
+    {
+      "text": "Forscher",
+      "startInSeconds": 257.24
+    },
+    {
+      "text": "schaute",
+      "startInSeconds": 257.56
+    },
+    {
+      "text": "sich",
+      "startInSeconds": 257.86
+    },
+    {
+      "text": "tatsächlich",
+      "startInSeconds": 258.48
+    },
+    {
+      "text": "an,",
+      "startInSeconds": 259
+    },
+    {
+      "text": "welche",
+      "startInSeconds": 259.46
+    },
+    {
+      "text": "Wikipedia-Artikel",
+      "startInSeconds": 260.12
+    },
+    {
+      "text": "die",
+      "startInSeconds": 260.88
+    },
+    {
+      "text": "höchsten",
+      "startInSeconds": 261
+    },
+    {
+      "text": "Scores",
+      "startInSeconds": 261.56
+    },
+    {
+      "text": "haben.",
+      "startInSeconds": 262.02
+    },
+    {
+      "text": "Okay.",
+      "startInSeconds": 262.98
+    },
+    {
+      "text": "Und einige",
+      "startInSeconds": 264
+    },
+    {
+      "text": "könnten",
+      "startInSeconds": 264.76
+    },
+    {
+      "text": "dich",
+      "startInSeconds": 264.96
+    },
+    {
+      "text": "überraschen.",
+      "startInSeconds": 265.3
+    },
+    {
+      "text": "Oh,",
+      "startInSeconds": 266.56
+    },
+    {
+      "text": "okay,",
+      "startInSeconds": 267.3
+    },
+    {
+      "text": "erzähl.",
+      "startInSeconds": 267.76
+    },
+    {
+      "text": "Welche",
+      "startInSeconds": 268.92
+    },
+    {
+      "text": "Themen",
+      "startInSeconds": 269.4
+    },
+    {
+      "text": "sorgen",
+      "startInSeconds": 269.76
+    },
+    {
+      "text": "für die",
+      "startInSeconds": 269.98
+    },
+    {
+      "text": "meisten",
+      "startInSeconds": 270.48
+    },
+    {
+      "text": "Debatten",
+      "startInSeconds": 270.8
+    },
+    {
+      "text": "auf Wikipedia?",
+      "startInSeconds": 271.08
+    },
+    {
+      "text": "Nun,",
+      "startInSeconds": 272.44
+    },
+    {
+      "text": "im Januar",
+      "startInSeconds": 272.68
+    },
+    {
+      "text": "2011",
+      "startInSeconds": 273.88
+    },
+    {
+      "text": "war der kontroverseste",
+      "startInSeconds": 274.2
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 275.62
+    },
+    {
+      "text": "auf der",
+      "startInSeconds": 275.98
+    },
+    {
+      "text": "englischen",
+      "startInSeconds": 276.34
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 277.18
+    },
+    {
+      "text": "George",
+      "startInSeconds": 277.78
+    },
+    {
+      "text": "W.",
+      "startInSeconds": 278.26
+    },
+    {
+      "text": "Bush.",
+      "startInSeconds": 278.56
+    },
+    {
+      "text": "Okay,",
+      "startInSeconds": 279.78
+    },
+    {
+      "text": "ja, keine",
+      "startInSeconds": 280.36
+    },
+    {
+      "text": "Überraschung",
+      "startInSeconds": 280.96
+    },
+    {
+      "text": "da,",
+      "startInSeconds": 281.52
+    },
+    {
+      "text": "was",
+      "startInSeconds": 281.78
+    },
+    {
+      "text": "noch?",
+      "startInSeconds": 282.02
+    },
+    {
+      "text": "Auf",
+      "startInSeconds": 282.86
+    },
+    {
+      "text": "Platz",
+      "startInSeconds": 283.16
+    },
+    {
+      "text": "2",
+      "startInSeconds": 283.58
+    },
+    {
+      "text": "haben",
+      "startInSeconds": 283.9
+    },
+    {
+      "text": "wir",
+      "startInSeconds": 284.08
+    },
+    {
+      "text": "Anarchismus",
+      "startInSeconds": 284.28
+    },
+    {
+      "text": "und an",
+      "startInSeconds": 285.12
+    },
+    {
+      "text": "dritter",
+      "startInSeconds": 285.48
+    },
+    {
+      "text": "Stelle",
+      "startInSeconds": 285.88
+    },
+    {
+      "text": "Muhammad.",
+      "startInSeconds": 286.48
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 287.46
+    },
+    {
+      "text": "das sind",
+      "startInSeconds": 287.66
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 288.24
+    },
+    {
+      "text": "schwere",
+      "startInSeconds": 288.52
+    },
+    {
+      "text": "Themen.",
+      "startInSeconds": 288.92
+    },
+    {
+      "text": "Da fragt",
+      "startInSeconds": 289.88
+    },
+    {
+      "text": "man",
+      "startInSeconds": 290.38
+    },
+    {
+      "text": "sich,",
+      "startInSeconds": 290.66
+    },
+    {
+      "text": "was",
+      "startInSeconds": 291.1
+    },
+    {
+      "text": "ist es an",
+      "startInSeconds": 291.36
+    },
+    {
+      "text": "diesen",
+      "startInSeconds": 291.94
+    },
+    {
+      "text": "Themen,",
+      "startInSeconds": 292.2
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 292.36
+    },
+    {
+      "text": "sie zu",
+      "startInSeconds": 292.54
+    },
+    {
+      "text": "solchen",
+      "startInSeconds": 293
+    },
+    {
+      "text": "Blitzableitern",
+      "startInSeconds": 293.18
+    },
+    {
+      "text": "macht?",
+      "startInSeconds": 294
+    },
+    {
+      "text": "Absolut,",
+      "startInSeconds": 295.04
+    },
+    {
+      "text": "ja,",
+      "startInSeconds": 295.72
+    },
+    {
+      "text": "und",
+      "startInSeconds": 296.08
+    },
+    {
+      "text": "hier können",
+      "startInSeconds": 296.28
+    },
+    {
+      "text": "deine",
+      "startInSeconds": 296.82
+    },
+    {
+      "text": "eigenen",
+      "startInSeconds": 297.22
+    },
+    {
+      "text": "Erfahrungen",
+      "startInSeconds": 297.74
+    },
+    {
+      "text": "auf",
+      "startInSeconds": 298.1
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 298.76
+    },
+    {
+      "text": "interessant",
+      "startInSeconds": 299.38
+    },
+    {
+      "text": "sein.",
+      "startInSeconds": 299.74
+    },
+    {
+      "text": "Welche",
+      "startInSeconds": 300.66
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 301.12
+    },
+    {
+      "text": "hast",
+      "startInSeconds": 301.54
+    },
+    {
+      "text": "du gelesen,",
+      "startInSeconds": 301.68
+    },
+    {
+      "text": "bei denen",
+      "startInSeconds": 302.66
+    },
+    {
+      "text": "du dachtest,",
+      "startInSeconds": 303.14
+    },
+    {
+      "text": "wow,",
+      "startInSeconds": 304.22
+    },
+    {
+      "text": "das ist",
+      "startInSeconds": 304.66
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 305.28
+    },
+    {
+      "text": "gut recherchiert",
+      "startInSeconds": 305.58
+    },
+    {
+      "text": "und durchdacht",
+      "startInSeconds": 306.5
+    },
+    {
+      "text": "oder",
+      "startInSeconds": 307.3
+    },
+    {
+      "text": "anregend?",
+      "startInSeconds": 307.64
+    },
+    {
+      "text": "Richtig,",
+      "startInSeconds": 308.52
+    },
+    {
+      "text": "es ist",
+      "startInSeconds": 309.4
+    },
+    {
+      "text": "gut möglich,",
+      "startInSeconds": 309.88
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 310.76
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 311.02
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 311.4
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 311.84
+    },
+    {
+      "text": "ziemlich",
+      "startInSeconds": 312.28
+    },
+    {
+      "text": "rigorose",
+      "startInSeconds": 312.64
+    },
+    {
+      "text": "Bearbeitung",
+      "startInSeconds": 313.2
+    },
+    {
+      "text": "und Debatte",
+      "startInSeconds": 313.84
+    },
+    {
+      "text": "hinter",
+      "startInSeconds": 314.58
+    },
+    {
+      "text": "den",
+      "startInSeconds": 314.86
+    },
+    {
+      "text": "Kulissen",
+      "startInSeconds": 314.96
+    },
+    {
+      "text": "durchgemacht",
+      "startInSeconds": 315.52
+    },
+    {
+      "text": "haben.",
+      "startInSeconds": 316.14
+    },
+    {
+      "text": "Wir sehen",
+      "startInSeconds": 317.22
+    },
+    {
+      "text": "normalerweise",
+      "startInSeconds": 317.9
+    },
+    {
+      "text": "nur das",
+      "startInSeconds": 318.4
+    },
+    {
+      "text": "fertige",
+      "startInSeconds": 318.9
+    },
+    {
+      "text": "Produkt,",
+      "startInSeconds": 319.38
+    },
+    {
+      "text": "richtig?",
+      "startInSeconds": 319.96
+    },
+    {
+      "text": "Genau.",
+      "startInSeconds": 320.76
+    },
+    {
+      "text": "Aber",
+      "startInSeconds": 322.06
+    },
+    {
+      "text": "jetzt",
+      "startInSeconds": 322.44
+    },
+    {
+      "text": "stelle",
+      "startInSeconds": 322.62
+    },
+    {
+      "text": "ich mir",
+      "startInSeconds": 322.78
+    },
+    {
+      "text": "das Ganze",
+      "startInSeconds": 323.12
+    },
+    {
+      "text": "hin und",
+      "startInSeconds": 323.68
+    },
+    {
+      "text": "her",
+      "startInSeconds": 324.04
+    },
+    {
+      "text": "vor, das",
+      "startInSeconds": 324.34
+    },
+    {
+      "text": "da reingeflossen",
+      "startInSeconds": 325.02
+    },
+    {
+      "text": "ist.",
+      "startInSeconds": 326.06
+    },
+    {
+      "text": "Richtig,",
+      "startInSeconds": 326.64
+    },
+    {
+      "text": "hm,",
+      "startInSeconds": 327.52
+    },
+    {
+      "text": "fügt",
+      "startInSeconds": 327.78
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 328.18
+    },
+    {
+      "text": "weitere",
+      "startInSeconds": 328.52
+    },
+    {
+      "text": "Ebene",
+      "startInSeconds": 328.76
+    },
+    {
+      "text": "hinzu.",
+      "startInSeconds": 329.14
+    },
+    {
+      "text": "Das tut",
+      "startInSeconds": 330.38
+    },
+    {
+      "text": "es,",
+      "startInSeconds": 331
+    },
+    {
+      "text": "es",
+      "startInSeconds": 331.44
+    },
+    {
+      "text": "zeigt,",
+      "startInSeconds": 331.84
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 332.26
+    },
+    {
+      "text": "obwohl",
+      "startInSeconds": 332.52
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 333.24
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 333.64
+    },
+    {
+      "text": "Objektivität",
+      "startInSeconds": 333.86
+    },
+    {
+      "text": "anstrebt,",
+      "startInSeconds": 335.04
+    },
+    {
+      "text": "der",
+      "startInSeconds": 335.6
+    },
+    {
+      "text": "Erstellungsprozess",
+      "startInSeconds": 335.86
+    },
+    {
+      "text": "immer",
+      "startInSeconds": 336.88
+    },
+    {
+      "text": "noch",
+      "startInSeconds": 337.08
+    },
+    {
+      "text": "sehr",
+      "startInSeconds": 337.32
+    },
+    {
+      "text": "menschlich",
+      "startInSeconds": 337.54
+    },
+    {
+      "text": "ist.",
+      "startInSeconds": 338.08
+    },
+    {
+      "text": "Es werden",
+      "startInSeconds": 338.86
+    },
+    {
+      "text": "Urteile",
+      "startInSeconds": 339.42
+    },
+    {
+      "text": "gefällt,",
+      "startInSeconds": 339.96
+    },
+    {
+      "text": "Perspektiven",
+      "startInSeconds": 340.46
+    },
+    {
+      "text": "werden",
+      "startInSeconds": 341.32
+    },
+    {
+      "text": "abgewogen.",
+      "startInSeconds": 341.68
+    },
+    {
+      "text": "Richtig,",
+      "startInSeconds": 342.92
+    },
+    {
+      "text": "es ist",
+      "startInSeconds": 343.34
+    },
+    {
+      "text": "nicht",
+      "startInSeconds": 343.78
+    },
+    {
+      "text": "so,",
+      "startInSeconds": 344
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 344.3
+    },
+    {
+      "text": "irgendein",
+      "startInSeconds": 344.44
+    },
+    {
+      "text": "allwissender",
+      "startInSeconds": 345.06
+    },
+    {
+      "text": "Algorithmus",
+      "startInSeconds": 345.64
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 346.34
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 346.66
+    },
+    {
+      "text": "einfach",
+      "startInSeconds": 347.22
+    },
+    {
+      "text": "ausspuckt,",
+      "startInSeconds": 347.6
+    },
+    {
+      "text": "verstehst",
+      "startInSeconds": 348.24
+    },
+    {
+      "text": "du?",
+      "startInSeconds": 348.52
+    },
+    {
+      "text": "Es sind",
+      "startInSeconds": 349.32
+    },
+    {
+      "text": "echte",
+      "startInSeconds": 349.78
+    },
+    {
+      "text": "Menschen",
+      "startInSeconds": 350.28
+    },
+    {
+      "text": "mit",
+      "startInSeconds": 350.6
+    },
+    {
+      "text": "verschiedenen",
+      "startInSeconds": 351.18
+    },
+    {
+      "text": "Ansichten,",
+      "startInSeconds": 351.52
+    },
+    {
+      "text": "die sich",
+      "startInSeconds": 352
+    },
+    {
+      "text": "auseinandersetzen.",
+      "startInSeconds": 352.48
+    },
+    {
+      "text": "Genau,",
+      "startInSeconds": 354.24
+    },
+    {
+      "text": "genau,",
+      "startInSeconds": 354.8
+    },
+    {
+      "text": "und das",
+      "startInSeconds": 355.22
+    },
+    {
+      "text": "ist eine",
+      "startInSeconds": 355.58
+    },
+    {
+      "text": "gute",
+      "startInSeconds": 356.02
+    },
+    {
+      "text": "Sache.",
+      "startInSeconds": 356.36
+    },
+    {
+      "text": "Die Forschung",
+      "startInSeconds": 357
+    },
+    {
+      "text": "liegt",
+      "startInSeconds": 357.86
+    },
+    {
+      "text": "nahe,",
+      "startInSeconds": 358.1
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 358.46
+    },
+    {
+      "text": "ein",
+      "startInSeconds": 358.54
+    },
+    {
+      "text": "moderates",
+      "startInSeconds": 359
+    },
+    {
+      "text": "Maß",
+      "startInSeconds": 359.46
+    },
+    {
+      "text": "an Konflikt",
+      "startInSeconds": 359.74
+    },
+    {
+      "text": "tatsächlich",
+      "startInSeconds": 360.88
+    },
+    {
+      "text": "mit höherer",
+      "startInSeconds": 361.14
+    },
+    {
+      "text": "Qualität",
+      "startInSeconds": 361.86
+    },
+    {
+      "text": "verbunden",
+      "startInSeconds": 362.32
+    },
+    {
+      "text": "ist.",
+      "startInSeconds": 362.92
+    },
+    {
+      "text": "Es geht",
+      "startInSeconds": 363.8
+    },
+    {
+      "text": "also",
+      "startInSeconds": 364.3
+    },
+    {
+      "text": "darum,",
+      "startInSeconds": 364.6
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 364.96
+    },
+    {
+      "text": "produktive",
+      "startInSeconds": 365.44
+    },
+    {
+      "text": "Spannung",
+      "startInSeconds": 365.94
+    },
+    {
+      "text": "zu akzeptieren.",
+      "startInSeconds": 366.38
+    },
+    {
+      "text": "Das",
+      "startInSeconds": 368.22
+    },
+    {
+      "text": "ist",
+      "startInSeconds": 368.42
+    },
+    {
+      "text": "so interessant.",
+      "startInSeconds": 368.66
+    },
+    {
+      "text": "Es ändert",
+      "startInSeconds": 369.92
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 370.7
+    },
+    {
+      "text": "meine",
+      "startInSeconds": 370.9
+    },
+    {
+      "text": "Sicht",
+      "startInSeconds": 371.22
+    },
+    {
+      "text": "auf Wikipedia.",
+      "startInSeconds": 371.4
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 372.9
+    },
+    {
+      "text": "nicht",
+      "startInSeconds": 373.32
+    },
+    {
+      "text": "nur",
+      "startInSeconds": 373.54
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 373.86
+    },
+    {
+      "text": "Informationsquelle,",
+      "startInSeconds": 374.24
+    },
+    {
+      "text": "es ist",
+      "startInSeconds": 375.46
+    },
+    {
+      "text": "wie ein",
+      "startInSeconds": 375.84
+    },
+    {
+      "text": "laufendes",
+      "startInSeconds": 376.22
+    },
+    {
+      "text": "Gespräch.",
+      "startInSeconds": 376.9
+    },
+    {
+      "text": "Ebese",
+      "startInSeconds": 377.48
+    },
+    {
+      "text": "dam",
+      "startInSeconds": 378.06
+    },
+    {
+      "text": "mich",
+      "startInSeconds": 378.34
+    },
+    {
+      "text": "au samsie",
+      "startInSeconds": 378.56
+    },
+    {
+      "text": "selasechig,",
+      "startInSeconds": 379.24
+    },
+    {
+      "text": "ein unglaubliches",
+      "startInSeconds": 380.32
+    },
+    {
+      "text": "Beispiel",
+      "startInSeconds": 381.44
+    },
+    {
+      "text": "für",
+      "startInSeconds": 381.72
+    },
+    {
+      "text": "kollaborative",
+      "startInSeconds": 381.9
+    },
+    {
+      "text": "Wissensschaffung.",
+      "startInSeconds": 382.68
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 384.28
+    },
+    {
+      "text": "das",
+      "startInSeconds": 384.54
+    },
+    {
+      "text": "gefällt",
+      "startInSeconds": 384.78
+    },
+    {
+      "text": "mir,",
+      "startInSeconds": 385.4
+    },
+    {
+      "text": "könnte",
+      "startInSeconds": 385.8
+    },
+    {
+      "text": "ich nicht",
+      "startInSeconds": 386
+    },
+    {
+      "text": "besser",
+      "startInSeconds": 386.46
+    },
+    {
+      "text": "ausdrücken.",
+      "startInSeconds": 386.78
+    },
+    {
+      "text": "Und weißt",
+      "startInSeconds": 387.8
+    },
+    {
+      "text": "du,",
+      "startInSeconds": 388.2
+    },
+    {
+      "text": "da war",
+      "startInSeconds": 388.4
+    },
+    {
+      "text": "noch",
+      "startInSeconds": 388.8
+    },
+    {
+      "text": "ein anderes",
+      "startInSeconds": 388.96
+    },
+    {
+      "text": "kleines",
+      "startInSeconds": 389.58
+    },
+    {
+      "text": "Detail",
+      "startInSeconds": 390.02
+    },
+    {
+      "text": "in dieser",
+      "startInSeconds": 390.34
+    },
+    {
+      "text": "Forschung,",
+      "startInSeconds": 390.88
+    },
+    {
+      "text": "das ich",
+      "startInSeconds": 391.4
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 392.02
+    },
+    {
+      "text": "interessant",
+      "startInSeconds": 392.46
+    },
+    {
+      "text": "fand. Und",
+      "startInSeconds": 392.82
+    },
+    {
+      "text": "es hatte",
+      "startInSeconds": 393.64
+    },
+    {
+      "text": "damit",
+      "startInSeconds": 394.18
+    },
+    {
+      "text": "zu tun,",
+      "startInSeconds": 394.44
+    },
+    {
+      "text": "wer",
+      "startInSeconds": 395
+    },
+    {
+      "text": "die",
+      "startInSeconds": 395.18
+    },
+    {
+      "text": "Qualität",
+      "startInSeconds": 395.56
+    },
+    {
+      "text": "dieser",
+      "startInSeconds": 396.06
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 396.4
+    },
+    {
+      "text": "eigentlich",
+      "startInSeconds": 397.08
+    },
+    {
+      "text": "bewertete.",
+      "startInSeconds": 397.36
+    },
+    {
+      "text": "Okay,",
+      "startInSeconds": 398.84
+    },
+    {
+      "text": "ja.",
+      "startInSeconds": 399.32
+    },
+    {
+      "text": "Wer waren",
+      "startInSeconds": 400.12
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 400.72
+    },
+    {
+      "text": "Wikipedia-Qualitätsrichter?",
+      "startInSeconds": 401.44
+    },
+    {
+      "text": "Waren",
+      "startInSeconds": 403.02
+    },
+    {
+      "text": "sie",
+      "startInSeconds": 403.28
+    },
+    {
+      "text": "Experten",
+      "startInSeconds": 403.74
+    },
+    {
+      "text": "auf ihren",
+      "startInSeconds": 404.02
+    },
+    {
+      "text": "Gebieten",
+      "startInSeconds": 404.54
+    },
+    {
+      "text": "oder",
+      "startInSeconds": 404.92
+    },
+    {
+      "text": "sowas?",
+      "startInSeconds": 405.12
+    },
+    {
+      "text": "Nun,",
+      "startInSeconds": 406.36
+    },
+    {
+      "text": "der",
+      "startInSeconds": 406.64
+    },
+    {
+      "text": "Forscher",
+      "startInSeconds": 406.88
+    },
+    {
+      "text": "betrachtete",
+      "startInSeconds": 407.3
+    },
+    {
+      "text": "sowohl",
+      "startInSeconds": 407.82
+    },
+    {
+      "text": "registrierte",
+      "startInSeconds": 408.52
+    },
+    {
+      "text": "Benutzer",
+      "startInSeconds": 409.04
+    },
+    {
+      "text": "von",
+      "startInSeconds": 409.38
+    },
+    {
+      "text": "Wikipedia,",
+      "startInSeconds": 410.08
+    },
+    {
+      "text": "also",
+      "startInSeconds": 410.8
+    },
+    {
+      "text": "Leute,",
+      "startInSeconds": 410.8
+    },
+    {
+      "text": "die Konten",
+      "startInSeconds": 411.04
+    },
+    {
+      "text": "haben,",
+      "startInSeconds": 411.76
+    },
+    {
+      "text": "als auch",
+      "startInSeconds": 412.22
+    },
+    {
+      "text": "Leute,",
+      "startInSeconds": 412.6
+    },
+    {
+      "text": "die anonym",
+      "startInSeconds": 412.86
+    },
+    {
+      "text": "surfen.",
+      "startInSeconds": 413.52
+    },
+    {
+      "text": "Und sie",
+      "startInSeconds": 414.28
+    },
+    {
+      "text": "fanden",
+      "startInSeconds": 414.66
+    },
+    {
+      "text": "heraus,",
+      "startInSeconds": 415.24
+    },
+    {
+      "text": "dass registrierte",
+      "startInSeconds": 415.84
+    },
+    {
+      "text": "Benutzer",
+      "startInSeconds": 416.74
+    },
+    {
+      "text": "im Durchschnitt",
+      "startInSeconds": 417.06
+    },
+    {
+      "text": "die Artikel",
+      "startInSeconds": 417.88
+    },
+    {
+      "text": "etwas",
+      "startInSeconds": 418.72
+    },
+    {
+      "text": "höher",
+      "startInSeconds": 418.96
+    },
+    {
+      "text": "bewerteten",
+      "startInSeconds": 419.2
+    },
+    {
+      "text": "als",
+      "startInSeconds": 420.02
+    },
+    {
+      "text": "anonyme",
+      "startInSeconds": 420.26
+    },
+    {
+      "text": "Benutzer.",
+      "startInSeconds": 420.7
+    },
+    {
+      "text": "Das ist",
+      "startInSeconds": 421.8
+    },
+    {
+      "text": "interessant.",
+      "startInSeconds": 422.66
+    },
+    {
+      "text": "Warum",
+      "startInSeconds": 423.22
+    },
+    {
+      "text": "denkst",
+      "startInSeconds": 423.48
+    },
+    {
+      "text": "du,",
+      "startInSeconds": 423.66
+    },
+    {
+      "text": "ist",
+      "startInSeconds": 423.96
+    },
+    {
+      "text": "das so?",
+      "startInSeconds": 424.1
+    },
+    {
+      "text": "Nun,",
+      "startInSeconds": 425.32
+    },
+    {
+      "text": "es ist",
+      "startInSeconds": 425.54
+    },
+    {
+      "text": "schwer",
+      "startInSeconds": 425.98
+    },
+    {
+      "text": "zu sagen,",
+      "startInSeconds": 426.24
+    },
+    {
+      "text": "aber",
+      "startInSeconds": 426.88
+    },
+    {
+      "text": "es könnte",
+      "startInSeconds": 427.1
+    },
+    {
+      "text": "sein,",
+      "startInSeconds": 427.8
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 428.3
+    },
+    {
+      "text": "registrierte",
+      "startInSeconds": 428.66
+    },
+    {
+      "text": "Benutzer,",
+      "startInSeconds": 429.1
+    },
+    {
+      "text": "weil",
+      "startInSeconds": 429.88
+    },
+    {
+      "text": "sie",
+      "startInSeconds": 430.06
+    },
+    {
+      "text": "eher",
+      "startInSeconds": 430.44
+    },
+    {
+      "text": "selbst",
+      "startInSeconds": 430.8
+    },
+    {
+      "text": "aktive",
+      "startInSeconds": 431.16
+    },
+    {
+      "text": "Editoren",
+      "startInSeconds": 431.62
+    },
+    {
+      "text": "sind,",
+      "startInSeconds": 432.12
+    },
+    {
+      "text": "ein besseres",
+      "startInSeconds": 432.62
+    },
+    {
+      "text": "Verständnis",
+      "startInSeconds": 433.32
+    },
+    {
+      "text": "dafür",
+      "startInSeconds": 433.98
+    },
+    {
+      "text": "haben,",
+      "startInSeconds": 434.3
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 434.76
+    },
+    {
+      "text": "der",
+      "startInSeconds": 434.94
+    },
+    {
+      "text": "Wiki",
+      "startInSeconds": 435.3
+    },
+    {
+      "text": "@Columnits",
+      "startInSeconds": 435.58
+    },
+    {
+      "text": "Editing",
+      "startInSeconds": 436.44
+    },
+    {
+      "text": "Process",
+      "startInSeconds": 437.12
+    },
+    {
+      "text": "works.",
+      "startInSeconds": 437.62
+    },
+    {
+      "text": "Oder sie",
+      "startInSeconds": 438.6
+    },
+    {
+      "text": "haben",
+      "startInSeconds": 439.1
+    },
+    {
+      "text": "firsthand",
+      "startInSeconds": 439.9
+    },
+    {
+      "text": "gesehen,",
+      "startInSeconds": 439.9
+    },
+    {
+      "text": "wie diese",
+      "startInSeconds": 440.24
+    },
+    {
+      "text": "Artikel",
+      "startInSeconds": 440.84
+    },
+    {
+      "text": "zu debattieren",
+      "startInSeconds": 441.16
+    },
+    {
+      "text": "und zu",
+      "startInSeconds": 441.7
+    },
+    {
+      "text": "befinden",
+      "startInSeconds": 442.24
+    },
+    {
+      "text": "sind, also",
+      "startInSeconds": 442.24
+    },
+    {
+      "text": "sind",
+      "startInSeconds": 443.12
+    },
+    {
+      "text": "sie vielleicht",
+      "startInSeconds": 443.66
+    },
+    {
+      "text": "ein bisschen",
+      "startInSeconds": 443.66
+    },
+    {
+      "text": "mehr",
+      "startInSeconds": 444.32
+    },
+    {
+      "text": "vergeben",
+      "startInSeconds": 444.48
+    },
+    {
+      "text": "von kleineren",
+      "startInSeconds": 444.86
+    },
+    {
+      "text": "Verlusten",
+      "startInSeconds": 445.56
+    },
+    {
+      "text": "oder",
+      "startInSeconds": 445.88
+    },
+    {
+      "text": "Verlusten.",
+      "startInSeconds": 446.12
+    },
+    {
+      "text": "Genau,",
+      "startInSeconds": 447.96
+    },
+    {
+      "text": "genau.",
+      "startInSeconds": 448.84
+    },
+    {
+      "text": "Oder es",
+      "startInSeconds": 449.78
+    },
+    {
+      "text": "könnte",
+      "startInSeconds": 450.12
+    },
+    {
+      "text": "sein,",
+      "startInSeconds": 450.32
+    },
+    {
+      "text": "weil registrierte",
+      "startInSeconds": 450.58
+    },
+    {
+      "text": "Benutzer,",
+      "startInSeconds": 451.52
+    },
+    {
+      "text": "durch",
+      "startInSeconds": 452
+    },
+    {
+      "text": "die Bedeutung",
+      "startInSeconds": 452
+    },
+    {
+      "text": "eines",
+      "startInSeconds": 453.02
+    },
+    {
+      "text": "Beratungsgebetes",
+      "startInSeconds": 453.42
+    },
+    {
+      "text": "und sich",
+      "startInSeconds": 453.7
+    },
+    {
+      "text": "selbst",
+      "startInSeconds": 454.68
+    },
+    {
+      "text": "identifizieren,",
+      "startInSeconds": 454.68
+    },
+    {
+      "text": "vielleicht",
+      "startInSeconds": 455.68
+    },
+    {
+      "text": "nur ein",
+      "startInSeconds": 456.1
+    },
+    {
+      "text": "größeres",
+      "startInSeconds": 456.56
+    },
+    {
+      "text": "Gefühl",
+      "startInSeconds": 456.88
+    },
+    {
+      "text": "von Bewusstsein",
+      "startInSeconds": 457
+    },
+    {
+      "text": "über",
+      "startInSeconds": 457.82
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 458.5
+    },
+    {
+      "text": "fühlen.",
+      "startInSeconds": 458.5
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 459.56
+    },
+    {
+      "text": "so,",
+      "startInSeconds": 459.68
+    },
+    {
+      "text": "dass sie",
+      "startInSeconds": 459.82
+    },
+    {
+      "text": "in die",
+      "startInSeconds": 460.56
+    },
+    {
+      "text": "Community",
+      "startInSeconds": 461.18
+    },
+    {
+      "text": "investiert",
+      "startInSeconds": 461.18
+    },
+    {
+      "text": "sind, also",
+      "startInSeconds": 461.18
+    },
+    {
+      "text": "sind",
+      "startInSeconds": 462
+    },
+    {
+      "text": "sie eher",
+      "startInSeconds": 462.22
+    },
+    {
+      "text": "möglich,",
+      "startInSeconds": 462.66
+    },
+    {
+      "text": "das Gute",
+      "startInSeconds": 463.08
+    },
+    {
+      "text": "in sie",
+      "startInSeconds": 463.46
+    },
+    {
+      "text": "zu sehen.",
+      "startInSeconds": 463.58
+    },
+    {
+      "text": "Genau.",
+      "startInSeconds": 465
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 465.94
+    },
+    {
+      "text": "nicht",
+      "startInSeconds": 466.22
+    },
+    {
+      "text": "perfekt.",
+      "startInSeconds": 466.7
+    },
+    {
+      "text": "Genau.",
+      "startInSeconds": 468
+    },
+    {
+      "text": "Ja.",
+      "startInSeconds": 468.62
+    },
+    {
+      "text": "Es spricht",
+      "startInSeconds": 469.34
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 469.92
+    },
+    {
+      "text": "zu der",
+      "startInSeconds": 470.06
+    },
+    {
+      "text": "komplexen",
+      "startInSeconds": 470.48
+    },
+    {
+      "text": "Beziehung,",
+      "startInSeconds": 471.2
+    },
+    {
+      "text": "die wir",
+      "startInSeconds": 471.52
+    },
+    {
+      "text": "mit diesen",
+      "startInSeconds": 471.84
+    },
+    {
+      "text": "Online-Kommunitäten",
+      "startInSeconds": 472.6
+    },
+    {
+      "text": "haben und die",
+      "startInSeconds": 473.96
+    },
+    {
+      "text": "zutreffenden",
+      "startInSeconds": 474.48
+    },
+    {
+      "text": "Wege,",
+      "startInSeconds": 474.98
+    },
+    {
+      "text": "wie unsere",
+      "startInSeconds": 475.1
+    },
+    {
+      "text": "Biasen",
+      "startInSeconds": 475.56
+    },
+    {
+      "text": "und Erfahrungen,",
+      "startInSeconds": 476.04
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 477.66
+    },
+    {
+      "text": "wir",
+      "startInSeconds": 478.02
+    },
+    {
+      "text": "Dinge",
+      "startInSeconds": 478.8
+    },
+    {
+      "text": "sehen",
+      "startInSeconds": 478.8
+    },
+    {
+      "text": "können.",
+      "startInSeconds": 478.8
+    },
+    {
+      "text": "Das",
+      "startInSeconds": 479.86
+    },
+    {
+      "text": "ist",
+      "startInSeconds": 480
+    },
+    {
+      "text": "so",
+      "startInSeconds": 480.3
+    },
+    {
+      "text": "faszinierend.",
+      "startInSeconds": 480.44
+    },
+    {
+      "text": "Alles",
+      "startInSeconds": 482
+    },
+    {
+      "text": "klar,",
+      "startInSeconds": 482
+    },
+    {
+      "text": "bevor",
+      "startInSeconds": 482.38
+    },
+    {
+      "text": "wir aufhören,",
+      "startInSeconds": 482.56
+    },
+    {
+      "text": "ich bin",
+      "startInSeconds": 483.94
+    },
+    {
+      "text": "interessiert,",
+      "startInSeconds": 484.32
+    },
+    {
+      "text": "ob all",
+      "startInSeconds": 484.84
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 485.08
+    },
+    {
+      "text": "Forschung",
+      "startInSeconds": 485.44
+    },
+    {
+      "text": "auf Englisch-Wikipedia",
+      "startInSeconds": 486.08
+    },
+    {
+      "text": "konzentriert",
+      "startInSeconds": 487.34
+    },
+    {
+      "text": "ist. Ja.",
+      "startInSeconds": 488.02
+    },
+    {
+      "text": "Glaubst",
+      "startInSeconds": 489.62
+    },
+    {
+      "text": "du,",
+      "startInSeconds": 489.72
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 489.8
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 490
+    },
+    {
+      "text": "Finden",
+      "startInSeconds": 490.28
+    },
+    {
+      "text": "über",
+      "startInSeconds": 491.3
+    },
+    {
+      "text": "verschiedene",
+      "startInSeconds": 491.76
+    },
+    {
+      "text": "Sprachen",
+      "startInSeconds": 492.2
+    },
+    {
+      "text": "und Kulturen",
+      "startInSeconds": 492.38
+    },
+    {
+      "text": "wahrhalten",
+      "startInSeconds": 493.42
+    },
+    {
+      "text": "würden?",
+      "startInSeconds": 493.42
+    },
+    {
+      "text": "Das ist",
+      "startInSeconds": 493.92
+    },
+    {
+      "text": "so eine",
+      "startInSeconds": 494.3
+    },
+    {
+      "text": "gute",
+      "startInSeconds": 494.56
+    },
+    {
+      "text": "Frage.",
+      "startInSeconds": 495
+    },
+    {
+      "text": "Ja.",
+      "startInSeconds": 495.66
+    },
+    {
+      "text": "Denn es",
+      "startInSeconds": 496.44
+    },
+    {
+      "text": "macht",
+      "startInSeconds": 496.7
+    },
+    {
+      "text": "dich",
+      "startInSeconds": 496.88
+    },
+    {
+      "text": "denken,",
+      "startInSeconds": 497.18
+    },
+    {
+      "text": "ob einige",
+      "startInSeconds": 497.52
+    },
+    {
+      "text": "Sprachen",
+      "startInSeconds": 498.12
+    },
+    {
+      "text": "oder",
+      "startInSeconds": 498.38
+    },
+    {
+      "text": "Kulturen",
+      "startInSeconds": 498.46
+    },
+    {
+      "text": "mehr",
+      "startInSeconds": 499.36
+    },
+    {
+      "text": "von dieser",
+      "startInSeconds": 499.42
+    },
+    {
+      "text": "generativen",
+      "startInSeconds": 500.02
+    },
+    {
+      "text": "Friction",
+      "startInSeconds": 500.4
+    },
+    {
+      "text": "auf ihrer",
+      "startInSeconds": 500.68
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 501.44
+    },
+    {
+      "text": "haben",
+      "startInSeconds": 501.44
+    },
+    {
+      "text": "als",
+      "startInSeconds": 501.66
+    },
+    {
+      "text": "andere.",
+      "startInSeconds": 502.06
+    },
+    {
+      "text": "Genau.",
+      "startInSeconds": 503.36
+    },
+    {
+      "text": "Ja.",
+      "startInSeconds": 504.24
+    },
+    {
+      "text": "Und was",
+      "startInSeconds": 504.86
+    },
+    {
+      "text": "würde",
+      "startInSeconds": 505.2
+    },
+    {
+      "text": "uns darüber",
+      "startInSeconds": 505.4
+    },
+    {
+      "text": "erzählen,",
+      "startInSeconds": 505.62
+    },
+    {
+      "text": "wie der",
+      "startInSeconds": 506.48
+    },
+    {
+      "text": "Wissen",
+      "startInSeconds": 506.8
+    },
+    {
+      "text": "in diesen",
+      "startInSeconds": 507.52
+    },
+    {
+      "text": "verschiedenen",
+      "startInSeconds": 508.32
+    },
+    {
+      "text": "Kontexten",
+      "startInSeconds": 508.42
+    },
+    {
+      "text": "geformt",
+      "startInSeconds": 509.4
+    },
+    {
+      "text": "ist?",
+      "startInSeconds": 509.4
+    },
+    {
+      "text": "Es erhebt",
+      "startInSeconds": 509.72
+    },
+    {
+      "text": "definitiv",
+      "startInSeconds": 510.68
+    },
+    {
+      "text": "den",
+      "startInSeconds": 510.84
+    },
+    {
+      "text": "Bedarf",
+      "startInSeconds": 511.12
+    },
+    {
+      "text": "für",
+      "startInSeconds": 511.26
+    },
+    {
+      "text": "mehr",
+      "startInSeconds": 511.48
+    },
+    {
+      "text": "krosskulturelle",
+      "startInSeconds": 511.58
+    },
+    {
+      "text": "Forschung",
+      "startInSeconds": 512.7
+    },
+    {
+      "text": "in diesem",
+      "startInSeconds": 512.88
+    },
+    {
+      "text": "Bereich.",
+      "startInSeconds": 513.44
+    },
+    {
+      "text": "Es macht",
+      "startInSeconds": 514.48
+    },
+    {
+      "text": "dich wundern,",
+      "startInSeconds": 514.78
+    },
+    {
+      "text": "wie die",
+      "startInSeconds": 515.26
+    },
+    {
+      "text": "kulturellen",
+      "startInSeconds": 515.4
+    },
+    {
+      "text": "Normen",
+      "startInSeconds": 516.1
+    },
+    {
+      "text": "um Debatte",
+      "startInSeconds": 516.46
+    },
+    {
+      "text": "und",
+      "startInSeconds": 517
+    },
+    {
+      "text": "Verbrechen",
+      "startInSeconds": 517.42
+    },
+    {
+      "text": "in all",
+      "startInSeconds": 518.54
+    },
+    {
+      "text": "diesen",
+      "startInSeconds": 519.24
+    },
+    {
+      "text": "Dingen",
+      "startInSeconds": 519.7
+    },
+    {
+      "text": "spielen.",
+      "startInSeconds": 519.7
+    },
+    {
+      "text": "Du weißt,",
+      "startInSeconds": 520.14
+    },
+    {
+      "text": "ob einige",
+      "startInSeconds": 520.56
+    },
+    {
+      "text": "Sprachen",
+      "startInSeconds": 521.16
+    },
+    {
+      "text": "oder Kulturen",
+      "startInSeconds": 521.4
+    },
+    {
+      "text": "mehr",
+      "startInSeconds": 522.32
+    },
+    {
+      "text": "von dieser",
+      "startInSeconds": 522.44
+    },
+    {
+      "text": "generativen",
+      "startInSeconds": 522.98
+    },
+    {
+      "text": "Friction",
+      "startInSeconds": 523.42
+    },
+    {
+      "text": "auf",
+      "startInSeconds": 523.66
+    },
+    {
+      "text": "ihrer",
+      "startInSeconds": 523.88
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 524.46
+    },
+    {
+      "text": "haben",
+      "startInSeconds": 524.46
+    },
+    {
+      "text": "als andere.",
+      "startInSeconds": 524.72
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 526.32
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 526.34
+    },
+    {
+      "text": "wirklich",
+      "startInSeconds": 526.72
+    },
+    {
+      "text": "interessante",
+      "startInSeconds": 527.14
+    },
+    {
+      "text": "Frage,",
+      "startInSeconds": 527.54
+    },
+    {
+      "text": "oder?",
+      "startInSeconds": 528.14
+    },
+    {
+      "text": "Ja.",
+      "startInSeconds": 529.62
+    },
+    {
+      "text": "Und was",
+      "startInSeconds": 530.64
+    },
+    {
+      "text": "würde",
+      "startInSeconds": 530.94
+    },
+    {
+      "text": "uns darüber",
+      "startInSeconds": 531.08
+    },
+    {
+      "text": "erzählen,",
+      "startInSeconds": 531.52
+    },
+    {
+      "text": "wie",
+      "startInSeconds": 531.98
+    },
+    {
+      "text": "der",
+      "startInSeconds": 532.34
+    },
+    {
+      "text": "Wissen",
+      "startInSeconds": 532.34
+    },
+    {
+      "text": "in diesen",
+      "startInSeconds": 533.02
+    },
+    {
+      "text": "verschiedenen",
+      "startInSeconds": 533.68
+    },
+    {
+      "text": "Kontexten",
+      "startInSeconds": 533.92
+    },
+    {
+      "text": "geformt",
+      "startInSeconds": 534.78
+    },
+    {
+      "text": "ist?",
+      "startInSeconds": 534.92
+    },
+    {
+      "text": "Es erhebt",
+      "startInSeconds": 535.7
+    },
+    {
+      "text": "definitiv",
+      "startInSeconds": 536.6
+    },
+    {
+      "text": "den Bedarf",
+      "startInSeconds": 536.76
+    },
+    {
+      "text": "für",
+      "startInSeconds": 537.16
+    },
+    {
+      "text": "mehr",
+      "startInSeconds": 537.42
+    },
+    {
+      "text": "krosskulturelle",
+      "startInSeconds": 537.56
+    },
+    {
+      "text": "Forschung",
+      "startInSeconds": 538.64
+    },
+    {
+      "text": "in diesem",
+      "startInSeconds": 538.84
+    },
+    {
+      "text": "Bereich.",
+      "startInSeconds": 539.5
+    },
+    {
+      "text": "Ja,",
+      "startInSeconds": 540.6
+    },
+    {
+      "text": "sicher.",
+      "startInSeconds": 540.98
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 542.04
+    },
+    {
+      "text": "so, als",
+      "startInSeconds": 542.16
+    },
+    {
+      "text": "hätten",
+      "startInSeconds": 542.5
+    },
+    {
+      "text": "wir dieses",
+      "startInSeconds": 542.54
+    },
+    {
+      "text": "eine kleine",
+      "startInSeconds": 543.48
+    },
+    {
+      "text": "Sprache",
+      "startInSeconds": 544.06
+    },
+    {
+      "text": "von",
+      "startInSeconds": 544.22
+    },
+    {
+      "text": "Wikipedia,",
+      "startInSeconds": 544.92
+    },
+    {
+      "text": "die Englische",
+      "startInSeconds": 545.28
+    },
+    {
+      "text": "Version,",
+      "startInSeconds": 546.18
+    },
+    {
+      "text": "gesehen.",
+      "startInSeconds": 546.18
+    },
+    {
+      "text": "Genau.",
+      "startInSeconds": 548.12
+    },
+    {
+      "text": "Aber da",
+      "startInSeconds": 548.26
+    },
+    {
+      "text": "gibt es",
+      "startInSeconds": 548.42
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 548.62
+    },
+    {
+      "text": "ganze",
+      "startInSeconds": 548.92
+    },
+    {
+      "text": "andere",
+      "startInSeconds": 549.2
+    },
+    {
+      "text": "Dimension,",
+      "startInSeconds": 549.46
+    },
+    {
+      "text": "diese",
+      "startInSeconds": 550.72
+    },
+    {
+      "text": "globale",
+      "startInSeconds": 551.16
+    },
+    {
+      "text": "Tapestry",
+      "startInSeconds": 551.54
+    },
+    {
+      "text": "der",
+      "startInSeconds": 551.94
+    },
+    {
+      "text": "Wissen-Kreation.",
+      "startInSeconds": 552.28
+    },
+    {
+      "text": "Absolut.",
+      "startInSeconds": 553.9
+    },
+    {
+      "text": "Die wir",
+      "startInSeconds": 555.12
+    },
+    {
+      "text": "noch",
+      "startInSeconds": 555.68
+    },
+    {
+      "text": "nicht",
+      "startInSeconds": 555.68
+    },
+    {
+      "text": "begonnen",
+      "startInSeconds": 555.98
+    },
+    {
+      "text": "haben,",
+      "startInSeconds": 556.24
+    },
+    {
+      "text": "zu erforschen.",
+      "startInSeconds": 556.52
+    },
+    {
+      "text": "Genau.",
+      "startInSeconds": 558.18
+    },
+    {
+      "text": "Es ist",
+      "startInSeconds": 558.64
+    },
+    {
+      "text": "eine",
+      "startInSeconds": 558.74
+    },
+    {
+      "text": "Erinnerung,",
+      "startInSeconds": 559
+    },
+    {
+      "text": "dass",
+      "startInSeconds": 559.26
+    },
+    {
+      "text": "es immer",
+      "startInSeconds": 559.54
+    },
+    {
+      "text": "multiple",
+      "startInSeconds": 560.32
+    },
+    {
+      "text": "Perspektiven",
+      "startInSeconds": 560.64
+    },
+    {
+      "text": "gibt, verschiedene",
+      "startInSeconds": 561.12
+    },
+    {
+      "text": "Wege",
+      "startInSeconds": 562.26
+    },
+    {
+      "text": "des Wissens",
+      "startInSeconds": 562.46
+    },
+    {
+      "text": "und des",
+      "startInSeconds": 562.96
+    },
+    {
+      "text": "Verständnisses",
+      "startInSeconds": 563.52
+    },
+    {
+      "text": "der",
+      "startInSeconds": 563.66
+    },
+    {
+      "text": "Welt, und Plattformen",
+      "startInSeconds": 564.2
+    },
+    {
+      "text": "wie Wikipedia,",
+      "startInSeconds": 565.56
+    },
+    {
+      "text": "für alle",
+      "startInSeconds": 566.66
+    },
+    {
+      "text": "ihre",
+      "startInSeconds": 567.1
+    },
+    {
+      "text": "Flügel,",
+      "startInSeconds": 567.38
+    },
+    {
+      "text": "einen",
+      "startInSeconds": 568.1
+    },
+    {
+      "text": "Blick",
+      "startInSeconds": 568.46
+    },
+    {
+      "text": "in diese",
+      "startInSeconds": 568.64
+    },
+    {
+      "text": "verschiedenen",
+      "startInSeconds": 569.22
+    },
+    {
+      "text": "Perspektiven",
+      "startInSeconds": 569.44
+    },
+    {
+      "text": "geben.",
+      "startInSeconds": 570.68
+    },
+    {
+      "text": "Absolut.",
+      "startInSeconds": 571.06
+    },
+    {
+      "text": "Well,",
+      "startInSeconds": 572
+    },
+    {
+      "text": "this",
+      "startInSeconds": 572.52
+    },
+    {
+      "text": "whole",
+      "startInSeconds": 572.88
+    },
+    {
+      "text": "deep",
+      "startInSeconds": 573.16
+    },
+    {
+      "text": "dive",
+      "startInSeconds": 573.42
+    },
+    {
+      "text": "has",
+      "startInSeconds": 573.68
+    },
+    {
+      "text": "really",
+      "startInSeconds": 574
+    },
+    {
+      "text": "changed",
+      "startInSeconds": 574.4
+    },
+    {
+      "text": "how I",
+      "startInSeconds": 574.6
+    },
+    {
+      "text": "see Wikipedia.",
+      "startInSeconds": 574.94
+    },
+    {
+      "text": "I used to think of it as this static",
+      "startInSeconds": 576.46
+    },
+    {
+      "text": "source",
+      "startInSeconds": 578.3
+    },
+    {
+      "text": "of knowledge,",
+      "startInSeconds": 578.52
+    },
+    {
+      "text": "but",
+      "startInSeconds": 579.2
+    },
+    {
+      "text": "now",
+      "startInSeconds": 579.48
+    },
+    {
+      "text": "I understand",
+      "startInSeconds": 579.7
+    },
+    {
+      "text": "it's",
+      "startInSeconds": 580.26
+    },
+    {
+      "text": "much",
+      "startInSeconds": 580.58
+    },
+    {
+      "text": "more",
+      "startInSeconds": 580.82
+    },
+    {
+      "text": "dynamic,",
+      "startInSeconds": 581.3
+    },
+    {
+      "text": "much",
+      "startInSeconds": 581.72
+    },
+    {
+      "text": "more",
+      "startInSeconds": 582
+    },
+    {
+      "text": "human",
+      "startInSeconds": 582.26
+    },
+    {
+      "text": "than that.",
+      "startInSeconds": 582.5
+    },
+    {
+      "text": "I agree,",
+      "startInSeconds": 583.94
+    },
+    {
+      "text": "it's",
+      "startInSeconds": 584.76
+    },
+    {
+      "text": "easy",
+      "startInSeconds": 585.04
+    },
+    {
+      "text": "to forget",
+      "startInSeconds": 585.24
+    },
+    {
+      "text": "that",
+      "startInSeconds": 585.64
+    },
+    {
+      "text": "there",
+      "startInSeconds": 585.86
+    },
+    {
+      "text": "are",
+      "startInSeconds": 586.1
+    },
+    {
+      "text": "actual",
+      "startInSeconds": 586.44
+    },
+    {
+      "text": "people",
+      "startInSeconds": 586.82
+    },
+    {
+      "text": "behind",
+      "startInSeconds": 587.24
+    },
+    {
+      "text": "those",
+      "startInSeconds": 587.58
+    },
+    {
+      "text": "edits. People",
+      "startInSeconds": 587.94
+    },
+    {
+      "text": "who are",
+      "startInSeconds": 588.98
+    },
+    {
+      "text": "passionate",
+      "startInSeconds": 589.5
+    },
+    {
+      "text": "about",
+      "startInSeconds": 589.84
+    },
+    {
+      "text": "sharing",
+      "startInSeconds": 590.2
+    },
+    {
+      "text": "knowledge",
+      "startInSeconds": 590.62
+    },
+    {
+      "text": "and debating",
+      "startInSeconds": 591.02
+    },
+    {
+      "text": "different",
+      "startInSeconds": 591.8
+    },
+    {
+      "text": "perspectives.",
+      "startInSeconds": 592.48
+    },
+    {
+      "text": "And those",
+      "startInSeconds": 593.1
+    },
+    {
+      "text": "debates,",
+      "startInSeconds": 593.74
+    },
+    {
+      "text": "those",
+      "startInSeconds": 594.2
+    },
+    {
+      "text": "sometimes",
+      "startInSeconds": 594.72
+    },
+    {
+      "text": "heated",
+      "startInSeconds": 595.08
+    },
+    {
+      "text": "disagreements,",
+      "startInSeconds": 595.54
+    },
+    {
+      "text": "are",
+      "startInSeconds": 596.2
+    },
+    {
+      "text": "actually",
+      "startInSeconds": 596.6
+    },
+    {
+      "text": "what",
+      "startInSeconds": 596.84
+    },
+    {
+      "text": "make",
+      "startInSeconds": 597.08
+    },
+    {
+      "text": "Wikipedia",
+      "startInSeconds": 597.72
+    },
+    {
+      "text": "so fascinating.",
+      "startInSeconds": 598.08
+    },
+    {
+      "text": "Right.",
+      "startInSeconds": 599.96
+    },
+    {
+      "text": "They're",
+      "startInSeconds": 600.7
+    },
+    {
+      "text": "a sign",
+      "startInSeconds": 600.96
+    },
+    {
+      "text": "that",
+      "startInSeconds": 601.34
+    },
+    {
+      "text": "knowledge",
+      "startInSeconds": 601.66
+    },
+    {
+      "text": "is alive.",
+      "startInSeconds": 601.94
+    },
+    {
+      "text": "It's",
+      "startInSeconds": 602.72
+    },
+    {
+      "text": "evolving.",
+      "startInSeconds": 603.2
+    },
+    {
+      "text": "It's",
+      "startInSeconds": 603.92
+    },
+    {
+      "text": "not about",
+      "startInSeconds": 604.18
+    },
+    {
+      "text": "finding",
+      "startInSeconds": 604.8
+    },
+    {
+      "text": "the",
+      "startInSeconds": 604.96
+    },
+    {
+      "text": "right",
+      "startInSeconds": 605.26
+    },
+    {
+      "text": "answer,",
+      "startInSeconds": 605.72
+    },
+    {
+      "text": "but about",
+      "startInSeconds": 606.12
+    },
+    {
+      "text": "engaging",
+      "startInSeconds": 606.86
+    },
+    {
+      "text": "in that",
+      "startInSeconds": 607.1
+    },
+    {
+      "text": "ongoing",
+      "startInSeconds": 607.78
+    },
+    {
+      "text": "process",
+      "startInSeconds": 608.28
+    },
+    {
+      "text": "of inquiry",
+      "startInSeconds": 608.52
+    },
+    {
+      "text": "and",
+      "startInSeconds": 609.22
+    },
+    {
+      "text": "debate.",
+      "startInSeconds": 609.56
+    },
+    {
+      "text": "Well",
+      "startInSeconds": 610.68
+    },
+    {
+      "text": "said.",
+      "startInSeconds": 610.94
+    },
+    {
+      "text": "This",
+      "startInSeconds": 611.2
+    },
+    {
+      "text": "has been",
+      "startInSeconds": 611.42
+    },
+    {
+      "text": "a really",
+      "startInSeconds": 611.68
+    },
+    {
+      "text": "eye-opening",
+      "startInSeconds": 612.34
+    },
+    {
+      "text": "conversation.",
+      "startInSeconds": 613.36
+    },
+    {
+      "text": "So the",
+      "startInSeconds": 613.9
+    },
+    {
+      "text": "next",
+      "startInSeconds": 614.28
+    },
+    {
+      "text": "time",
+      "startInSeconds": 614.44
+    },
+    {
+      "text": "you're",
+      "startInSeconds": 614.62
+    },
+    {
+      "text": "browsing",
+      "startInSeconds": 615
+    },
+    {
+      "text": "Wikipedia,",
+      "startInSeconds": 615.66
+    },
+    {
+      "text": "take",
+      "startInSeconds": 616.24
+    },
+    {
+      "text": "a moment",
+      "startInSeconds": 616.38
+    },
+    {
+      "text": "to appreciate",
+      "startInSeconds": 616.88
+    },
+    {
+      "text": "the hidden",
+      "startInSeconds": 617.5
+    },
+    {
+      "text": "dynamics",
+      "startInSeconds": 618.26
+    },
+    {
+      "text": "at play.",
+      "startInSeconds": 618.56
+    },
+    {
+      "text": "Remember",
+      "startInSeconds": 619.78
+    },
+    {
+      "text": "that",
+      "startInSeconds": 620.06
+    },
+    {
+      "text": "article",
+      "startInSeconds": 620.42
+    },
+    {
+      "text": "you're",
+      "startInSeconds": 620.64
+    },
+    {
+      "text": "reading",
+      "startInSeconds": 620.9
+    },
+    {
+      "text": "is the",
+      "startInSeconds": 621.16
+    },
+    {
+      "text": "result",
+      "startInSeconds": 621.58
+    },
+    {
+      "text": "of countless",
+      "startInSeconds": 621.8
+    },
+    {
+      "text": "edits,",
+      "startInSeconds": 622.62
+    },
+    {
+      "text": "debates",
+      "startInSeconds": 623.18
+    },
+    {
+      "text": "and",
+      "startInSeconds": 623.44
+    },
+    {
+      "text": "collaborations.",
+      "startInSeconds": 624.12
+    },
+    {
+      "text": "It's a",
+      "startInSeconds": 625.14
+    },
+    {
+      "text": "testament",
+      "startInSeconds": 625.78
+    },
+    {
+      "text": "to the",
+      "startInSeconds": 626
+    },
+    {
+      "text": "power",
+      "startInSeconds": 626.4
+    },
+    {
+      "text": "of collective",
+      "startInSeconds": 626.7
+    },
+    {
+      "text": "knowledge",
+      "startInSeconds": 627.42
+    },
+    {
+      "text": "creation,",
+      "startInSeconds": 627.98
+    },
+    {
+      "text": "even",
+      "startInSeconds": 628.64
+    },
+    {
+      "text": "with",
+      "startInSeconds": 628.84
+    },
+    {
+      "text": "a little",
+      "startInSeconds": 628.92
+    },
+    {
+      "text": "bit of",
+      "startInSeconds": 629.32
+    },
+    {
+      "text": "friction",
+      "startInSeconds": 629.74
+    },
+    {
+      "text": "along",
+      "startInSeconds": 630.12
+    },
+    {
+      "text": "the way.",
+      "startInSeconds": 630.3
+    },
+    {
+      "text": "Well",
+      "startInSeconds": 631.66
+    },
+    {
+      "text": "said.",
+      "startInSeconds": 631.92
+    },
+    {
+      "text": "Enjoy",
+      "startInSeconds": 632.46
+    },
+    {
+      "text": "exploring",
+      "startInSeconds": 633.02
+    },
+    {
+      "text": "and don't",
+      "startInSeconds": 633.42
+    },
+    {
+      "text": "be",
+      "startInSeconds": 633.84
+    },
+    {
+      "text": "afraid",
+      "startInSeconds": 634.1
+    },
+    {
+      "text": "to dive",
+      "startInSeconds": 634.32
+    },
+    {
+      "text": "into",
+      "startInSeconds": 634.78
+    },
+    {
+      "text": "those",
+      "startInSeconds": 635.12
+    },
+    {
+      "text": "edit",
+      "startInSeconds": 635.34
+    },
+    {
+      "text": "histories.",
+      "startInSeconds": 635.86
+    },
+    {
+      "text": "You might",
+      "startInSeconds": 636.9
+    },
+    {
+      "text": "be surprised",
+      "startInSeconds": 637.3
+    },
+    {
+      "text": "by what",
+      "startInSeconds": 637.82
+    },
+    {
+      "text": "you find.",
+      "startInSeconds": 638.24
+    }
+  ],
+  "fullTranscription": "  Schon  mal  in  einen  dieser  Wikipedia - K an in chen l ö cher  hine ing ez ogen  worden ?  We ißt  du ,  du  f äng st  mit  einem  zu f äll igen  F akt  auf  Wikipedia  an  und  Stunden  später  li est  du  über  mitt el alter liches  Kor b  fle chten  oder  so  was ?  Oh  ja ,  passiert  den  Best en  von  uns .  Aber  hast  du  schon  mal  darüber  nach ged acht ,  was  eigentlich  einen  guten  Wikipedia - Art ikel  aus m acht ?  Das  ist  eine  gute  Frage .  Was  unters che idet  einen  wirklich  groß art igen  E int rag  von  einem ,  der  nur  so  mitt el mäßig  ist ?   Ja ,  interessant .  Wir  nehmen  es  irgendwie  als  selbst verständ lich ,  aber  der  Pro zess ,  diese  Art ikel  zu  erst ellen ,  ist  wirklich  kompl iziert .  Ja ,  und  genau  darum  geht  es  heute .  Und  hör  dir  das  an ,  wir  sprechen  über  eine  Forsch ung ,  die  darauf  h inde utet ,  dass  ein  bisschen  Kon fl ikt  auf  Wikipedia  tatsächlich  eine  gute  Sache  sein  könnte .  R ichtig ,  wir  bet r achten  Aus z ü ge  aus  dieser  D iss ert ation  der  Oxford  University  mit  dem  Tit el  \" W ik ipedia  als  eine  Co - A ut oren  sch afft \".   Es  ist  so  eine  Art  Daten an aly se ,  trif ft  das  Drama  der  Online zus ammen arbeit .  Oh ,  sch n all  dich  an ,  das  wird  gut .  Wir  alle  wissen ,  dass  jeder  Wikipedia  bear beiten  kann ,  richtig ?  Dieser  Fors cher  wollte  heraus finden ,  ob  all  das  hin  und  her ,  all  die  Debat ten  und  Bear beit ungen  letzt end lich  zu  bess eren  Art ikel n  führen .  Ja ,  und  sie  bet r acht eten  nicht  nur  gut  oder  schlecht .  Wikipedia  hat  dieses  inter ne  Be wert ungs system .  Es  gibt  sie ben  St ufen .  Wow ,  sie ben .   Sie ben  Qual itä ts st ufen .  Aber  diese  Forsch ung  kon zent ri erte  sich  auf  vier  Haupt as pe kte .  Kon nte  man  den  Informationen  vert rauen ?  W aren  sie  ob jekt iv ?  Fe hl te  etwas  W ichtig es ?  Und  war  es  gut  geschrieben ?  Okay ,  im  Grund e  also  all  die  Sachen ,  auf  die  man  bei  jeder  Que lle  ach ten  würde ,  richtig ?  Aber  hier  wird  es  richtig  interessant .  Sie  mus sten  einen  Weg  finden ,  Kon fl ikte  auf  Wikipedia  zu  mess en .   Denn  se ien  wir  ehrlich ,  einige  Themen  werden  von  Natur  aus  kont ro vers er  sein .  Auf  jeden  Fall .  Als  andere ,  also  wie  mis st  man  das  überhaupt ?  R ichtig ,  sie  kam en  auf  eine  wirklich  cle vere  Meth ode ,  die  etwas  nam ens  geg ense it ige  Rever ts chutz  ver wend et .  Geg ense it ige  Rever ts .  Okay ,  erkl äre  das  für  uns ,  es  k lingt  ein  bisschen  techn isch .  Ja ,  es  k lingt  sehr  techn isch ,  ist  aber  tatsächlich  ziemlich  intuit iv .   Im  Grund e  ver fol gen  sie ,  wie  oft  Ed it oren  die  Ä nder ungen  anderer  r ück g äng ig  machen .  Je  mehr  hin  und  her  es  gibt ,  dest o  höher  ist  der  Kont ro vers - S core  eines  Art ike ls .  Okay ,  es  ist  also  wie  ein  T au ziehen  um  den  In halt .  Genau ,  okay ,  ein  ho her  Kont ro vers - S core  bedeutet  also  viel  mehr  Mein ungs vers chieden heiten .  Die  Ed it oren  sind  wirklich  oft  hin  und  her  gegangen  bei  dem  Art ikel .  Genau ,  Jim  Sin ...  Er  kr ass  es ?  Ja ,  viel  Stre it  sozusagen .   Und  man  würde  denken ,  all  das  Stre iten  würde  zu  einem  schle chter en  Art ikel  führen .  Ja ,  man  würde  es  denken ,  richtig ,  aber  hier  ist  der  Twist .  H äng  uns  nicht  in  der  Luft .  Art ikel  mit  einem  moder aten  Maß  an  Kon fl ikt ,  das  heißt ,  sie  hatten  etwas  hin  und  her ,  aber  es  war  nicht  wie  ein  total er  Krie gs zust and ,  er ziel ten  tatsächlich  hö here  Be wert ungen  bei  diesen  vier  Qual itä ts mer k mal en .  Also  sag st  du ,  dass  ein  bisschen  ges unde  Debatte  einen  bess eren  Wikipedia - Art ikel  aus m acht ?   Das  leg t  die  Forsch ung  nah e ,  ja .  Ja ,  es  scheint  kont ra int uit iv ,  aber  wenn  du  darüber  nach den k st ,  wenn  du  Leute  mit  unterschied lichen  Pers pekt iven  hast ,  die  sich  geg ense it ig  heraus ford ern  und  bear beit ete  Ä nder ungen  zur ücks etzen ,  kann  das  am  Ende  zu  einem  aus gew ogen eren  und  um f ass ender en  Art ikel  führen .  R ichtig ,  ich  meine ,  wenn  ein  Art ikel  super  ein se it ig  ist ,  könnte  es  daran  liegen ,  dass  niemand  diese  Pers pekt ive  je  heraus ge ford ert  hat ,  richtig ?   Aber  wenn  er  durch  die  M angel  ged re ht  wurde ,  ist  es  wahrscheinlich ,  dass  er  gere chter  und  genau er  ist .  Genau ,  okay ,  das  macht  Sinn .  Aber  es  gibt  auch  ein  Lim it  zu  viel  Kon fl ikt ,  wenn  es  sich  in  re ine  Bear beit ung sk rie ge  auf l öst ,  dann  wird  das  die  Qual ität  wieder  nach  unten  ziehen .  Ah ,  also  muss  man  den  richt igen  Punkt  finden ,  richtig ?  Ja ,  ein  bisschen  Re ib ung  er zeug t  Hit ze ,  aber  zu  viel  und  man  verb ren nt  sich .   Per f ek te  Anal ogie ,  ja ,  und  um  zu  den  Kont ro vers - Sc ores  zurück zu ke h ren ,  der  Fors cher  sch a ute  sich  tatsächlich  an ,  welche  Wikipedia - Art ikel  die  hö ch sten  Sc ores  haben .  Okay .  Und  einige  könnten  dich  über ras chen .  Oh ,  okay ,  erzäh l .  Wel che  Themen  sorgen  für  die  meisten  Debat ten  auf  Wikipedia ?  Nun ,  im  Jan uar  2011  war  der  kont ro vers este  Art ikel  auf  der  eng l ischen  Wikipedia  George  W .  Bush .   Okay ,  ja ,  keine  Über ras ch ung  da ,  was  noch ?  Auf  Platz  2  haben  wir  An arch ismus  und  an  dr itter  Stelle  Muhammad .  Ja ,  das  sind  wirklich  schw ere  Themen .  Da  frag t  man  sich ,  was  ist  es  an  diesen  Themen ,  dass  sie  zu  solchen  Bl itz able it ern  macht ?  Abs olut ,  ja ,  und  hier  können  deine  eigenen  Erfahr ungen  auf  Wikipedia  interessant  sein .  Wel che  Art ikel  hast  du  gel esen ,  bei  denen  du  d acht est ,  wow ,  das  ist  wirklich  gut  recher ch iert  und  durch d acht  oder  an reg end ?   R ichtig ,  es  ist  gut  möglich ,  dass  diese  Art ikel  eine  ziemlich  rigor ose  Bear beit ung  und  Debatte  hinter  den  K ul issen  durch gem acht  haben .  Wir  sehen  normal erweise  nur  das  fert ige  Produkt ,  richtig ?  Genau .  Aber  jetzt  st elle  ich  mir  das  Ganze  hin  und  her  vor ,  das  da  re ing ef l ossen  ist .  R ichtig ,  hm ,  f ü gt  eine  weitere  Eb ene  hin zu .   Das  tut  es ,  es  zeigt ,  dass  obwohl  Wikipedia  diese  Ob jekt iv ität  an stre bt ,  der  Er stell ungs pro zess  immer  noch  sehr  mens ch lich  ist .  Es  werden  Ur te ile  gef ällt ,  Pers pekt iven  werden  ab gew ogen .  R ichtig ,  es  ist  nicht  so ,  dass  ir gende in  all w iss ender  Alg orith mus  diese  Art ikel  einfach  auss p uckt ,  verste hst  du ?  Es  sind  e chte  Menschen  mit  verschiedenen  Ans ichten ,  die  sich  a use in anders etzen .  Genau ,  genau ,  und  das  ist  eine  gute  Sache .   Die  Forsch ung  liegt  nah e ,  dass  ein  moder ates  Maß  an  Kon fl ikt  tatsächlich  mit  höher er  Qual ität  verb unden  ist .  Es  geht  also  darum ,  diese  produkt ive  Sp ann ung  zu  ak zept ieren .  Das  ist  so  interessant .  Es  änd ert  wirklich  meine  Sicht  auf  Wikipedia .  Es  ist  nicht  nur  eine  Inform ations quelle ,  es  ist  wie  ein  la uf endes  Gespr äch .  Eb ese  dam  mich  au  sam s ie  sel ase ch ig ,  ein  unglaub liches  Beispiel  für  koll abor ative  W iss ens sch aff ung .   Ja ,  das  gef ällt  mir ,  könnte  ich  nicht  besser  aus dr ücken .  Und  we ißt  du ,  da  war  noch  ein  anderes  kle ines  Det ail  in  dieser  Forsch ung ,  das  ich  wirklich  interessant  fand .  Und  es  hatte  damit  zu  tun ,  wer  die  Qual ität  dieser  Art ikel  eigentlich  bew ert ete .  Okay ,  ja .  Wer  waren  diese  Wikipedia - Q ual itä ts richt er ?  W aren  sie  Exper ten  auf  ihren  Geb ieten  oder  sow as ?  Nun ,  der  Fors cher  bet r acht ete  sow ohl  regist ri erte  Ben ut zer  von  Wikipedia ,   also  Leute ,  die  Kont en  haben ,  als  auch  Leute ,  die  anonym  sur fen .  Und  sie  f anden  heraus ,  dass  regist ri erte  Ben ut zer  im  Durch s chnitt  die  Art ikel  etwas  höher  bew ert eten  als  an ony me  Ben ut zer .  Das  ist  interessant .  Warum  denk st  du ,  ist  das  so ?  Nun ,  es  ist  schwer  zu  sagen ,  aber  es  könnte  sein ,  dass  regist ri erte  Ben ut zer ,  weil  sie  eher  selbst  akt ive  Ed it oren  sind ,  ein  bess eres  Ver ständ nis  dafür  haben ,  wie  der  Wiki  @ C ol umn its  Ed iting  Process  works .   Oder  sie  haben  firsthand  gesehen ,  wie  diese  Art ikel  zu  deb att ieren  und  zu  bef inden  sind ,  also  sind  sie  vielleicht  ein  bisschen  mehr  ver geben  von  kleiner en  Ver l ust en  oder  Ver l ust en .  Genau ,  genau .  Oder  es  könnte  sein ,  weil  regist ri erte  Ben ut zer ,  durch  die  B ede ut ung  eines  Ber at ungs ge bet es  und  sich  selbst  ident if iz ieren ,  vielleicht  nur  ein  größ eres  Gefühl  von  Bew usst sein  über  Wikipedia  füh len .  Es  ist  so ,  dass  sie  in  die  Community  invest iert  sind ,  also  sind  sie  eher  möglich ,  das  G ute  in  sie  zu  sehen .  Genau .  Es  ist  nicht  perfekt .   Genau .  Ja .  Es  spricht  wirklich  zu  der  kom plex en  Be zieh ung ,  die  wir  mit  diesen  Online - K omm un itäten  haben  und  die  z ut re ff enden  We ge ,  wie  unsere  B ias en  und  Erfahr ungen ,  wie  wir  Dinge  sehen  können .  Das  ist  so  f asz in ier end .  Alles  klar ,  bevor  wir  auf h ören ,  ich  bin  interess iert ,  ob  all  diese  Forsch ung  auf  Eng l isch - W ik ipedia  kon zent ri ert  ist .  Ja .  G laub st  du ,  dass  diese  F inden  über  verschiedene  Spr achen  und  K ulture n  wahr halten  würden ?  Das  ist  so  eine  gute  Frage .  Ja .   Denn  es  macht  dich  denken ,  ob  einige  Spr achen  oder  K ulture n  mehr  von  dieser  gener at iven  Fr iction  auf  ihrer  Wikipedia  haben  als  andere .  Genau .  Ja .  Und  was  würde  uns  darüber  erzäh len ,  wie  der  W issen  in  diesen  verschiedenen  Kont ext en  ge form t  ist ?  Es  er he bt  definit iv  den  Bed arf  für  mehr  k ross k ulture lle  Forsch ung  in  diesem  Bereich .  Es  macht  dich  w und ern ,  wie  die  k ulture llen  Norm en  um  Debatte  und  Ver bre chen  in  all  diesen  Dingen  spielen .  Du  we ißt ,  ob  einige  Spr achen  oder  K ulture n  mehr  von  dieser  gener at iven  Fr iction   auf  ihrer  Wikipedia  haben  als  andere .  Es  ist  eine  wirklich  interessante  Frage ,  oder ?  Ja .  Und  was  würde  uns  darüber  erzäh len ,  wie  der  W issen  in  diesen  verschiedenen  Kont ext en  ge form t  ist ?  Es  er he bt  definit iv  den  Bed arf  für  mehr  k ross k ulture lle  Forsch ung  in  diesem  Bereich .  Ja ,  sicher .  Es  ist  so ,  als  hätten  wir  dieses  eine  kleine  Spr ache  von  Wikipedia ,  die  Eng l ische  Version ,  gesehen .   Genau .  Aber  da  gibt  es  diese  ganze  andere  Dim ension ,  diese  glob ale  Tap estry  der  W issen - K re ation .  Abs olut .  Die  wir  noch  nicht  beg onnen  haben ,  zu  erf ors chen .  Genau .  Es  ist  eine  Er inner ung ,  dass  es  immer  multiple  Pers pekt iven  gibt ,  verschiedene  We ge  des  W iss ens  und  des  Ver ständ n isses  der  Welt ,  und  Pl attform en  wie  Wikipedia ,  für  alle  ihre  Fl ü gel ,  einen  Blick  in  diese  verschiedenen  Pers pekt iven  geben .  Abs olut .   Well ,  this  whole  deep  dive  has  really  changed  how  I  see  Wikipedia .  I  used  to  think  of  it  as  this  static  source  of  knowledge ,  but  now  I  understand  it 's  much  more  dynamic ,  much  more  human  than  that .  I  agree ,  it 's  easy  to  forget  that  there  are  actual  people  behind  those  edits .  People  who  are  passionate  about  sharing  knowledge  and  debating  different  perspectives .  And  those  debates ,  those  sometimes  heated  disagre ements ,  are  actually  what  make  Wikipedia  so  fascinating .   Right .  They 're  a  sign  that  knowledge  is  alive .  It 's  evolving .  It 's  not  about  finding  the  right  answer ,  but  about  engaging  in  that  ongoing  process  of  inquiry  and  debate .  Well  said .  This  has  been  a  really  eye - op ening  conversation .  So  the  next  time  you 're  browsing  Wikipedia ,  take  a  moment  to  appreciate  the  hidden  dynamics  at  play .  Remember  that  article  you 're  reading  is  the  result  of  countless  edits ,  debates  and  collaborations .   It 's  a  testament  to  the  power  of  collective  knowledge  creation ,  even  with  a  little  bit  of  friction  along  the  way .  Well  said .  Enjoy  exploring  and  don 't  be  afraid  to  dive  into  those  edit  histories .  You  might  be  surprised  by  what  you  find ."
+}
